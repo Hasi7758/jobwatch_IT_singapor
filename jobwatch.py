@@ -570,7 +570,7 @@ def ats_successfactors(cfg_entry, name):
                 source="SuccessFactors",
                 company=name,
                 title=_html_unescape(title),
-                location=_html_unescape(loc),
+                location=_html_unescape(loc) or cfg_entry.get("location", ""),
                 url=base.split("/search")[0] + href,
                 posted="",
             ))
@@ -902,6 +902,28 @@ details summary{cursor:pointer;color:var(--acc);font-size:13px;margin-bottom:10p
      border-bottom:2px solid var(--tx)}
 .note{background:#fff6e8;border:1px solid #f0dcc0;border-radius:8px;padding:10px 13px;
       font-size:13px;color:#6b5533;margin-bottom:18px}
+
+.bar{margin:6px 0 4px}
+.bar .row{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:7px}
+.bar .lbl{font-size:11px;color:var(--mut);letter-spacing:.06em;min-width:2.4em}
+.bar .cat{margin:0;cursor:pointer;opacity:.9;transition:opacity .15s,box-shadow .15s}
+.bar .cat:hover{opacity:1}
+.cat.on{opacity:1!important;box-shadow:0 0 0 2px var(--bg),0 0 0 4px var(--tx)}
+.filtering .bar .cat:not(.on){opacity:.4}
+.j .cat{cursor:pointer}
+.j .cat:hover{filter:brightness(1.12)}
+.tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0 14px}
+.tools input{flex:1;min-width:170px;padding:7px 10px;border:1px solid var(--line);border-radius:7px;
+             font:inherit;font-size:13px;background:var(--card);color:var(--tx)}
+.tools .btn{background:var(--card);border:1px solid var(--line);border-radius:7px;padding:6px 10px;
+            font:inherit;font-size:12px;cursor:pointer;color:var(--tx)}
+.tools .btn:hover{border-color:var(--tx)}
+.tools .btn.on{background:var(--tx);color:#fff;border-color:var(--tx)}
+.tools .hint{flex-basis:100%;margin:0;color:var(--mut)}
+.j.hide{display:none}
+.list .empty{display:none;padding:22px 0}
+.list.none .empty{display:block}
+.n{font-variant-numeric:tabular-nums}
 """
 
 
@@ -1169,21 +1191,84 @@ TAG_COLORS = {
 }
 
 
+def _grp(tag):
+    return "role" if tag in ROLE_NAMES else ("exp" if tag == JUNIOR_TAG else "ind")
+
+
+def _tag_span(c, extra=""):
+    return (f'<span class=cat data-tag="{html.escape(c)}" data-grp="{_grp(c)}" title="点击按此标签筛选" '
+            f'style="background:{TAG_COLORS.get(c, "#6b7280")}">{html.escape(c)}{extra}</span>')
+
+
 def _job_card(j):
     lbl = age_label(j)
     posted = f'<span class=tag>{html.escape(lbl)}</span>' if lbl else ""
-    igm = "".join(
-        f'<span class=cat style="background:{TAG_COLORS.get(c, "#6b7280")}">{html.escape(c)}</span>'
-        for c in (j.extra.get("cats") or []))
-    return (f'<div class=j><a href="{html.escape(j.url)}" target=_blank rel=noopener>'
+    cats = j.extra.get("cats") or []
+    igm = "".join(_tag_span(c) for c in cats)
+    return (f'<div class=j data-tags="{html.escape("|".join(cats))}">'
+            f'<a href="{html.escape(j.url)}" target=_blank rel=noopener>'
             f'{html.escape(j.title)}</a>{igm}{posted}'
             f'<div class=meta>{html.escape(j.company)} · '
             f'{html.escape(j.source)} · '
             f'{html.escape(j.location) or "地点未标注"}</div></div>')
 
 
+FILTER_JS = r"""
+(function(){
+  var wrap=document.querySelector('.wrap');
+  var chips=[].slice.call(document.querySelectorAll('.bar [data-tag]'));
+  var q=document.getElementById('q'), na=document.getElementById('na'), clr=document.getElementById('clr');
+  var sel={}, hideAgency=false;
+  function grpOf(tag){var el=document.querySelector('[data-tag="'+tag.replace(/"/g,'\\"')+'"]');return el?el.getAttribute('data-grp'):'x';}
+  function has(g,t){return sel[g]&&sel[g].indexOf(t)>=0;}
+  function toggle(tag){var g=grpOf(tag);sel[g]=sel[g]||[];var i=sel[g].indexOf(tag);
+    if(i>=0)sel[g].splice(i,1);else sel[g].push(tag);if(!sel[g].length)delete sel[g];apply();}
+  function match(card){
+    var t=(card.getAttribute('data-tags')||'').split('|');
+    if(hideAgency&&t.indexOf('招聘中介')>=0)return false;
+    for(var g in sel){var ok=false;for(var k=0;k<sel[g].length;k++){if(t.indexOf(sel[g][k])>=0){ok=true;break;}}if(!ok)return false;}
+    var s=q.value.trim().toLowerCase();
+    if(s&&card.textContent.toLowerCase().indexOf(s)<0)return false;
+    return true;}
+  function apply(){
+    var active=Object.keys(sel).length>0, any=active||hideAgency||!!q.value.trim();
+    wrap.className='wrap'+(active?' filtering':'');
+    chips.forEach(function(b){b.className='cat'+(has(b.getAttribute('data-grp'),b.getAttribute('data-tag'))?' on':'');});
+    na.className='btn'+(hideAgency?' on':'');
+    var total=0;
+    [].slice.call(document.querySelectorAll('.list')).forEach(function(l){
+      var n=0;[].slice.call(l.querySelectorAll('.j')).forEach(function(c){
+        var ok=match(c);c.className='j'+(ok?'':' hide');if(ok)n++;});
+      l.className='list'+(n?'':' none');
+      var h=document.querySelector('[data-for="'+l.id+'"]');
+      if(h){h.textContent=any?(n+' / '+h.getAttribute('data-total')):h.getAttribute('data-total');}
+      if(l.id==='l_fresh')total=n;
+      var d=l.closest?l.closest('details'):null;if(d&&any&&n)d.open=true;});
+    var p=[];var all=[];for(var g in sel)all=all.concat(sel[g]);
+    if(all.length)p.push('t='+encodeURIComponent(all.join(',')));
+    if(hideAgency)p.push('na=1');
+    if(q.value.trim())p.push('q='+encodeURIComponent(q.value.trim()));
+    try{history.replaceState(null,'',p.length?('#'+p.join('&')):location.pathname+location.search);}catch(e){}
+  }
+  document.addEventListener('click',function(e){
+    var el=e.target;while(el&&el!==document&&!(el.getAttribute&&el.getAttribute('data-tag')))el=el.parentNode;
+    if(el&&el!==document&&el.getAttribute('data-tag')){e.preventDefault();toggle(el.getAttribute('data-tag'));}});
+  na.addEventListener('click',function(){hideAgency=!hideAgency;apply();});
+  clr.addEventListener('click',function(){sel={};hideAgency=false;q.value='';apply();});
+  q.addEventListener('input',apply);
+  var h=location.hash.slice(1).split('&');
+  h.forEach(function(kv){var i=kv.indexOf('=');if(i<0)return;var k=kv.slice(0,i),v=decodeURIComponent(kv.slice(i+1));
+    if(k==='t')v.split(',').forEach(function(t){if(!t)return;var g=grpOf(t);sel[g]=sel[g]||[];if(sel[g].indexOf(t)<0)sel[g].push(t);});
+    if(k==='na'&&v==='1')hideAgency=true;
+    if(k==='q')q.value=v;});
+  apply();
+})();
+"""
+
+
 def render_html(day_groups, new_today, total_seen, first_run, cfg, fallback=None):
-    """只显示 max_age_days 天内的职位;若为空,退回显示最新的若干条并说明。"""
+    """只显示 max_age_days 天内的职位;若为空,退回显示最新的若干条并说明。
+    页面自带筛选:点标签(同组"或",跨组"且")、搜索框、隐藏中介;状态写在 URL # 里可收藏。"""
     ts = datetime.now().strftime("%Y-%m-%d %H:%M")
     disp = cfg.get("display") or {}
     maxage = int(disp.get("max_age_days", 5))
@@ -1208,8 +1293,22 @@ def render_html(day_groups, new_today, total_seen, first_run, cfg, fallback=None
             return (0 if JUNIOR_TAG in cats else 1, 1 if "招聘中介" in cats else 0, n if n is not None else 999)
         return sorted(js, key=key)
 
-    def cards(js):
-        return [_job_card(j) for j in by_age(js)]
+    def section(lid, title, js, hint="", cls="sec", limit=None, folded=False):
+        js = by_age(js)
+        shown = js[:limit] if limit else js
+        hint_html = f"<span class=hint>{hint}</span>" if hint else ""
+        out = [f'<div class={cls}>{title} · <span class=n data-for="{lid}" data-total="{len(js)}">{len(js)}</span> 条'
+               f'{hint_html}</div>']
+        if folded:
+            out.append("<details><summary>展开查看</summary>")
+        out.append(f'<div class=list id="{lid}">')
+        out += [_job_card(j) for j in shown]
+        if limit and len(js) > limit:
+            out.append(f'<div class=note>只显示前 {limit} 条,其余 {len(js) - limit} 条略。</div>')
+        out.append('<div class=empty>没有符合当前筛选的职位</div></div>')
+        if folded:
+            out.append("</details>")
+        return out
 
     parts = ["<!doctype html><meta charset=utf-8>",
              '<meta name=viewport content="width=device-width,initial-scale=1">',
@@ -1220,56 +1319,54 @@ def render_html(day_groups, new_today, total_seen, first_run, cfg, fallback=None
              f"<div class=sub>更新于 {ts} UTC · 最近 {maxage} 天 <b>{len(fresh)}</b> 条"
              f"· 库中累计 {total_seen} 条</div>"]
 
+    # 标签条:三组(方向 / 经验 / 行业),数字是最近 maxage 天内的数量
     cnt = {}
     for j in fresh:
         for c in (j.extra.get("cats") or []):
             cnt[c] = cnt.get(c, 0) + 1
-    if cnt:
-        def chip_order(kv):
-            c, n = kv
-            grp = 0 if c in ROLE_NAMES else (1 if c == JUNIOR_TAG else 2)
-            return (grp, -n)
-        chips = "".join(
-            f'<span class=cat style="background:{TAG_COLORS.get(c, "#6b7280")}">'
-            f'{html.escape(c)} {n}</span>'
-            for c, n in sorted(cnt.items(), key=chip_order))
-        parts.append(f"<div class=chips>{chips}</div>")
+    groups = {"role": ("方向", []), "exp": ("经验", []), "ind": ("行业", [])}
+    for c, n in sorted(cnt.items(), key=lambda kv: -kv[1]):
+        groups[_grp(c)][1].append(_tag_span(c, f" {n}"))
+    bar = []
+    for g in ("role", "exp", "ind"):
+        label, items = groups[g]
+        if items:
+            bar.append(f'<div class=row><span class=lbl>{label}</span>{"".join(items)}</div>')
+    parts.append(f'<div class=bar>{"".join(bar)}</div>')
+    parts.append('<div class=tools>'
+                 '<input id=q type=search placeholder="搜职位名 / 公司名…" autocomplete=off>'
+                 '<button id=na class=btn type=button>隐藏中介/外包岗</button>'
+                 '<button id=clr class=btn type=button>清除筛选</button>'
+                 f'<span class=hint>点标签筛选:同组"或",跨组"且";数字是最近 {maxage} 天内的数量。筛选状态在网址里,可收藏。</span>'
+                 '</div>')
+
     hidden_note = f"已隐藏 {'、'.join(sorted(hide))} 岗位(多限公民/PR);" if hide else ""
     parts.append(f'<div class=note>{hidden_note}'
                  '「招聘中介」是外包/派遣商发的合同岗,真实雇主未必是标出的那家;'
                  '「德企/德语区」含德国、瑞士、奥地利公司,德语是加分项。</div>')
-    parts.append(f"<div class=sec>最近 {maxage} 天内的职位 · {len(fresh)} 条</div>")
+
     if fresh:
-        parts += cards(fresh)
+        parts += section("l_fresh", f"最近 {maxage} 天内的职位", fresh)
     else:
-        parts.append(f'<div class=note>最近 {maxage} 天没有新职位(周末常见)。'
-                     f'下面列出最新的一批供参考。</div>')
-        parts += cards(older[:25])
+        parts.append(f'<div class=note>最近 {maxage} 天没有新职位(周末常见)。下面列出最新的一批供参考。</div>')
+        parts += section("l_fresh", "最新的一批", older[:25])
 
     if german_all:
-        parts.append(f"<div class=sec>德企 / 德语区公司在招 · {len(german_all)} 条"
-                     f"<span class=hint>(德国 · 瑞士 · 奥地利公司,不限日期)</span></div>")
-        parts += cards(german_all[:200])
-
+        parts += section("l_de", "德企 / 德语区公司在招", german_all,
+                         hint="(德国 · 瑞士 · 奥地利公司,不限日期)", limit=200)
     if junior_all:
-        parts.append(f"<div class=sec>初级 / 毕业生友好岗位 · {len(junior_all)} 条"
-                     f"<span class=hint>(职位名含 Junior / Associate / Graduate / Engineer I 等,不限日期)</span></div>")
-        parts += cards(junior_all[:200])
-
+        parts += section("l_jr", "初级 / 毕业生友好岗位", junior_all,
+                         hint="(职位名含 Junior / Associate / Graduate / Engineer I 等,不限日期)", limit=200)
     if fresh and older:
-        parts.append(f'<div class=sec2>更早的职位 · {len(older)} 条'
-                     f'<span class=hint>(超过 {maxage} 天,默认折叠)</span></div>')
-        parts.append("<details><summary>展开查看</summary>")
-        parts += cards(older[:150])
-        parts.append("</details>")
+        parts += section("l_old", "更早的职位", older, hint=f"(超过 {maxage} 天,默认折叠)",
+                         cls="sec2", limit=400, folded=True)
 
-    parts.append("</div>")
+    parts.append(f"</div><script>{FILTER_JS}</script>")
     doc = "".join(parts)
     OUT_HTML.write_text(doc, encoding="utf-8")
     DOCS_HTML.parent.mkdir(exist_ok=True)
     DOCS_HTML.write_text(doc, encoding="utf-8")
     (DOCS_HTML.parent / ".nojekyll").touch()
-
 
 
 def push_telegram(new_jobs, cfg):
