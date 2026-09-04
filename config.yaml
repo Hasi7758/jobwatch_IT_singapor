@@ -202,6 +202,10 @@ filters:
 display:
   max_age_days: 5
   recent_days: 2
+  # 整体隐藏带这些标签的岗位(仍会入库,删掉这一行就重新显示)。
+  # 政府与公共部门:GovTech / DSTA / ST Engineering / 各部委,多数只收公民或 PR,走 EP 的不看。
+  hide_tags:
+    - 政府与公共部门
 
 # ---------- 推送(可选;GitHub Actions 里用 Secrets 注入,不用改这里)----------
 telegram:

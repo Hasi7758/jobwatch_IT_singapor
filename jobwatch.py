@@ -102,6 +102,8 @@ def load_config():
     cfg["mycareersfuture"].setdefault("enabled", True)
     cfg["mycareersfuture"].setdefault("pages", 5)
     cfg["mycareersfuture"].setdefault("queries", [""])
+    cfg.setdefault("display", {})
+    cfg["display"].setdefault("hide_tags", [])
     cfg.setdefault("telegram", {})
     cfg["telegram"].setdefault("enabled", False)
     cfg.setdefault("open_browser", True)
@@ -1158,7 +1160,7 @@ TAG_COLORS = {
     "互联网平台": "#0f766e",
     "金融科技与加密": "#b45309",
     "银行与金融机构": "#a16207",
-    "政府与公共部门": "#9ca3af",   # 走 EP 的话多数进不去,弱化显示
+    "政府与公共部门": "#9ca3af",   # 默认在 config.yaml display.hide_tags 里整体隐藏(多限公民/PR)
     "德企/德语区": "#db2777",
     "咨询与IT服务": "#6b7280",
     "招聘中介": "#9ca3af",
@@ -1185,7 +1187,8 @@ def render_html(day_groups, new_today, total_seen, first_run, cfg, fallback=None
     ts = datetime.now().strftime("%Y-%m-%d %H:%M")
     disp = cfg.get("display") or {}
     maxage = int(disp.get("max_age_days", 5))
-    allj = fallback or []
+    hide = set(disp.get("hide_tags") or [])
+    allj = [j for j in (fallback or []) if not (hide & set(j.extra.get("cats") or []))]
 
     fresh, older, junior_all, german_all = [], [], [], []
     for j in allj:
@@ -1231,7 +1234,8 @@ def render_html(day_groups, new_today, total_seen, first_run, cfg, fallback=None
             f'{html.escape(c)} {n}</span>'
             for c, n in sorted(cnt.items(), key=chip_order))
         parts.append(f"<div class=chips>{chips}</div>")
-    parts.append('<div class=note>走 EP 提示:灰色「政府与公共部门」岗多数只收公民/PR;'
+    hidden_note = f"已隐藏 {'、'.join(sorted(hide))} 岗位(多限公民/PR);" if hide else ""
+    parts.append(f'<div class=note>{hidden_note}'
                  '「招聘中介」是外包/派遣商发的合同岗,真实雇主未必是标出的那家;'
                  '「德企/德语区」含德国、瑞士、奥地利公司,德语是加分项。</div>')
     parts.append(f"<div class=sec>最近 {maxage} 天内的职位 · {len(fresh)} 条</div>")
@@ -1340,6 +1344,12 @@ def cmd_run(cfg):
         render_html(recent_days(conn, win), 0, total, True, cfg,
                     fallback=all_current(conn))
     else:
+        hide = set((cfg.get("display") or {}).get("hide_tags") or [])
+        if hide:
+            hidden = [j for j in new if hide & set(j.extra.get("cats") or [])]
+            new = [j for j in new if j not in hidden]
+            if hidden:
+                print(f"\n(隐藏 {len(hidden)} 条 {'、'.join(sorted(hide))} 岗位,仍入库)")
         print(f"\n★ 新职位 {len(new)} 条")
         for j in new[:15]:
             print(f"  · {j.title[:60]} — {j.company[:30]}")
