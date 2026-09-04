@@ -1,0 +1,48 @@
+抓取 MyCareersFuture…
+  拿到 2019 条
+抓取公司 ATS…
+  [OK] GovTech Singapore (greenhouse)
+  [OK] Grab (smartrecruiters)
+  [OK] Ninja Van (lever)
+  [OK] ByteDance / TikTok (smartrecruiters)
+  [OK] SHEIN (greenhouse)
+  [OK] Stripe (greenhouse)
+  [OK] Nium (lever)
+  [OK] Xendit (greenhouse)
+  [OK] Thoughtworks (greenhouse)
+  [OK] GitLab (greenhouse)
+  [OK] Micron (workday)
+  [OK] GlobalFoundries (workday)
+  [OK] AMD (phenom)
+  [OK] Keysight (phenom)
+  [OK] Western Digital (smartrecruiters)
+  [OK] Coinbase (greenhouse)
+  [OK] OKX (greenhouse)
+  [OK] Crypto.com (lever)
+  [失败] Airwallex (greenhouse): HTTPError 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/airwallex/jobs
+  [失败] Wise (greenhouse): HTTPError 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/transferwise/jobs
+  [OK] Cloudflare (greenhouse)
+  [OK] Datadog (greenhouse)
+  [OK] Twilio (greenhouse)
+  [OK] Okta (greenhouse)
+  [OK] Palantir (lever)
+  [OK] Motional (greenhouse)
+  [OK] NVIDIA (workday)
+  [OK] Salesforce (workday)
+  [失败] Dell (workday): HTTPError 422 Client Error: Unprocessable Entity for url: https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/External/jobs
+  [OK] Adobe (workday)
+  [OK] PayPal (workday)
+  [OK] Mastercard (workday)
+  [OK] Intel (workday)
+  [失败] Qualcomm (workday): HTTPError 422 Client Error: Unprocessable Entity for url: https://qualcomm.wd5.myworkdayjobs.com/wday/cxs/qualcomm/External/jobs
+  [OK] HP (workday)
+  [OK] Dyson (workday)
+  [失败] Equinix (workday): HTTPError 404 Client Error: Not Found for url: https://equinix.wd1.myworkdayjobs.com/wday/cxs/equinix/Equinix_Careers/jobs
+  拿到 5606 条
+
+过滤后 1333 / 7625 条符合关键词+地点
+
+首次运行:已把现有 1333 条收作基线,不算新职位。
+从下一次运行起,只会显示真正新增的。
+
+报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
