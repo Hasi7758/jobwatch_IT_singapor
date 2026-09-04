@@ -5,8 +5,8 @@
 #
 # 分两段:
 #   A. 已实测可用(从 jobwatch_singapor 项目沿用,run.log 里全是 [OK])
-#   B. 凭经验加的(接口地址按各公司公开招聘页推断,未逐个实测)。
-#      首次跑完看 Actions 日志,标 [失败] 的删掉即可,不影响其他公司。
+#   B. 后来加的科技/金融公司。
+#      (首次运行已验证,失败的已删)。以后加公司同理:跑完看日志,标 [失败] 的删掉。
 #
 # 加公司:打开公司招聘页,点一个职位看地址栏跳到哪个域名,按文末对照表填。
 # 也可以本地跑  python jobwatch.py discover <slug>  自动探测。
@@ -78,7 +78,7 @@ companies:
   slug: westerndigital
   tags: [半导体与硬件]
 
-# ---------- B. 凭经验加的,首次运行后看日志清理 ----------
+# ---------- B. 2026-09-04 首次运行已验证可用 ----------
 - name: Coinbase
   ats: greenhouse
   slug: coinbase
@@ -90,14 +90,6 @@ companies:
 - name: Crypto.com
   ats: lever
   slug: crypto
-  tags: [金融科技与加密]
-- name: Airwallex
-  ats: greenhouse
-  slug: airwallex
-  tags: [金融科技与加密]
-- name: Wise
-  ats: greenhouse
-  slug: transferwise
   tags: [金融科技与加密]
 - name: Cloudflare
   ats: greenhouse
@@ -133,11 +125,6 @@ companies:
   url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs
   search: Singapore
   tags: [科技大厂]
-- name: Dell
-  ats: workday
-  url: https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/External/jobs
-  search: Singapore
-  tags: [科技大厂]
 - name: Adobe
   ats: workday
   url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs
@@ -158,11 +145,6 @@ companies:
   url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs
   search: Singapore
   tags: [半导体与硬件]
-- name: Qualcomm
-  ats: workday
-  url: https://qualcomm.wd5.myworkdayjobs.com/wday/cxs/qualcomm/External/jobs
-  search: Singapore
-  tags: [半导体与硬件]
 - name: HP
   ats: workday
   url: https://hp.wd5.myworkdayjobs.com/wday/cxs/hp/ExternalCareerSite/jobs
@@ -171,11 +153,6 @@ companies:
 - name: Dyson
   ats: workday
   url: https://dyson.wd3.myworkdayjobs.com/wday/cxs/dyson/Dyson_Careers/jobs
-  search: Singapore
-  tags: [科技大厂]
-- name: Equinix
-  ats: workday
-  url: https://equinix.wd1.myworkdayjobs.com/wday/cxs/equinix/Equinix_Careers/jobs
   search: Singapore
   tags: [科技大厂]
 

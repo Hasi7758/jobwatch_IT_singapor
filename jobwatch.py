@@ -999,7 +999,8 @@ CATEGORY_RULES = [
         "tech data", "td synnex", "dimension data", "presidio", "ensign",
     ]),
     ("招聘中介", [
-        "robert walters", "michael page", "page personnel", "randstad", "hays", "kelly services",
+        "robert walters", "michael page", "page personnel", "randstad", "hays", "kelly services", "kelly",
+        "persol", "jobline", "talent", "outsourcing", "hr solutions", "human resource",
         "persolkelly", "manpower", "manpowergroup", "adecco", "recruit express", "ambition",
         "morgan mckinley", "ethos beathchapman", "talent trader", "achieve career",
         "jac recruitment", "reeracoen", "good job creations", "pasona", "rgf", "argyll scott",
