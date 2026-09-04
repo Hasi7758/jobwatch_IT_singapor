@@ -1,0 +1,197 @@
+# 新加坡公司直连招聘接口(公司发到自家系统永远早于聚合平台)
+#
+# 标签:科技大厂 / 互联网平台 / 金融科技与加密 / 银行与金融机构 / 政府与公共部门 /
+#       咨询与IT服务 / 中资出海 / 半导体与硬件
+#
+# 分两段:
+#   A. 已实测可用(从 jobwatch_singapor 项目沿用,run.log 里全是 [OK])
+#   B. 凭经验加的(接口地址按各公司公开招聘页推断,未逐个实测)。
+#      首次跑完看 Actions 日志,标 [失败] 的删掉即可,不影响其他公司。
+#
+# 加公司:打开公司招聘页,点一个职位看地址栏跳到哪个域名,按文末对照表填。
+# 也可以本地跑  python jobwatch.py discover <slug>  自动探测。
+
+companies:
+# ---------- A. 已实测可用 ----------
+- name: GovTech Singapore
+  ats: greenhouse
+  slug: govtech
+  tags: [政府与公共部门]
+- name: Grab
+  ats: smartrecruiters
+  slug: grab
+  tags: [互联网平台]
+- name: Ninja Van
+  ats: lever
+  slug: ninjavan
+  tags: [互联网平台]
+- name: ByteDance / TikTok
+  ats: smartrecruiters
+  slug: bytedance
+  tags: [中资出海]
+- name: SHEIN
+  ats: greenhouse
+  slug: shein
+  tags: [中资出海]
+- name: Stripe
+  ats: greenhouse
+  slug: stripe
+  tags: [金融科技与加密]
+- name: Nium
+  ats: lever
+  slug: nium
+  tags: [金融科技与加密]
+- name: Xendit
+  ats: greenhouse
+  slug: xendit
+  tags: [金融科技与加密]
+- name: Thoughtworks
+  ats: greenhouse
+  slug: thoughtworks
+  tags: [咨询与IT服务]
+- name: GitLab
+  ats: greenhouse
+  slug: gitlab
+  tags: [科技大厂]
+- name: Micron
+  ats: workday
+  url: https://micron.wd1.myworkdayjobs.com/wday/cxs/micron/External/jobs
+  search: Singapore
+  tags: [半导体与硬件]
+- name: GlobalFoundries
+  ats: workday
+  url: https://globalfoundries.wd1.myworkdayjobs.com/wday/cxs/globalfoundries/External/jobs
+  search: Singapore
+  tags: [半导体与硬件]
+- name: AMD
+  ats: phenom
+  url: https://careers.amd.com
+  location: Singapore
+  tags: [半导体与硬件]
+- name: Keysight
+  ats: phenom
+  url: https://careers.keysight.com
+  location: Singapore
+  tags: [半导体与硬件]
+- name: Western Digital
+  ats: smartrecruiters
+  slug: westerndigital
+  tags: [半导体与硬件]
+
+# ---------- B. 凭经验加的,首次运行后看日志清理 ----------
+- name: Coinbase
+  ats: greenhouse
+  slug: coinbase
+  tags: [金融科技与加密]
+- name: OKX
+  ats: greenhouse
+  slug: okx
+  tags: [金融科技与加密, 中资出海]
+- name: Crypto.com
+  ats: lever
+  slug: crypto
+  tags: [金融科技与加密]
+- name: Airwallex
+  ats: greenhouse
+  slug: airwallex
+  tags: [金融科技与加密]
+- name: Wise
+  ats: greenhouse
+  slug: transferwise
+  tags: [金融科技与加密]
+- name: Cloudflare
+  ats: greenhouse
+  slug: cloudflare
+  tags: [科技大厂]
+- name: Datadog
+  ats: greenhouse
+  slug: datadog
+  tags: [科技大厂]
+- name: Twilio
+  ats: greenhouse
+  slug: twilio
+  tags: [科技大厂]
+- name: Okta
+  ats: greenhouse
+  slug: okta
+  tags: [科技大厂]
+- name: Palantir
+  ats: lever
+  slug: palantir
+  tags: [科技大厂]
+- name: Motional
+  ats: greenhouse
+  slug: motional
+  tags: [科技大厂]
+- name: NVIDIA
+  ats: workday
+  url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs
+  search: Singapore
+  tags: [科技大厂, 半导体与硬件]
+- name: Salesforce
+  ats: workday
+  url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs
+  search: Singapore
+  tags: [科技大厂]
+- name: Dell
+  ats: workday
+  url: https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/External/jobs
+  search: Singapore
+  tags: [科技大厂]
+- name: Adobe
+  ats: workday
+  url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs
+  search: Singapore
+  tags: [科技大厂]
+- name: PayPal
+  ats: workday
+  url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jobs/jobs
+  search: Singapore
+  tags: [金融科技与加密]
+- name: Mastercard
+  ats: workday
+  url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs
+  search: Singapore
+  tags: [金融科技与加密]
+- name: Intel
+  ats: workday
+  url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs
+  search: Singapore
+  tags: [半导体与硬件]
+- name: Qualcomm
+  ats: workday
+  url: https://qualcomm.wd5.myworkdayjobs.com/wday/cxs/qualcomm/External/jobs
+  search: Singapore
+  tags: [半导体与硬件]
+- name: HP
+  ats: workday
+  url: https://hp.wd5.myworkdayjobs.com/wday/cxs/hp/ExternalCareerSite/jobs
+  search: Singapore
+  tags: [科技大厂]
+- name: Dyson
+  ats: workday
+  url: https://dyson.wd3.myworkdayjobs.com/wday/cxs/dyson/Dyson_Careers/jobs
+  search: Singapore
+  tags: [科技大厂]
+- name: Equinix
+  ats: workday
+  url: https://equinix.wd1.myworkdayjobs.com/wday/cxs/equinix/Equinix_Careers/jobs
+  search: Singapore
+  tags: [科技大厂]
+
+# ============================================================
+# 对照表:地址栏域名 -> ats 字段
+#   boards.greenhouse.io/xxx  或 job-boards.greenhouse.io/xxx -> ats: greenhouse, slug: xxx
+#   jobs.lever.co/xxx                                        -> ats: lever,      slug: xxx
+#   jobs.smartrecruiters.com/xxx                             -> ats: smartrecruiters, slug: xxx
+#   jobs.ashbyhq.com/xxx                                     -> ats: ashby,      slug: xxx
+#   apply.workable.com/xxx                                   -> ats: workable,   slug: xxx
+#   xxx.recruitee.com                                        -> ats: recruitee,  slug: xxx
+#   xxx.wdN.myworkdayjobs.com/SITE/...                       -> ats: workday,
+#        url: https://xxx.wdN.myworkdayjobs.com/wday/cxs/xxx/SITE/jobs   search: Singapore
+#   careers.xxx.com/job/...(Phenom 平台,页面底部有 Phenom 字样)-> ats: phenom, url: https://careers.xxx.com, location: Singapore
+#
+# 没有公开接口的(Amazon / Google / Microsoft / Apple / Meta / Shopee / Sea / DBS / OCBC / UOB /
+# 银行 / NCS / Accenture 等)靠 MyCareersFuture 覆盖:按公平考量框架,多数要申请 EP 的岗位
+# 必须先在 MCF 公开招聘 14 天,所以大公司的岗位基本不会漏。
+# ============================================================
