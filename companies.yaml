@@ -156,6 +156,26 @@ companies:
   search: Singapore
   tags: [科技大厂]
 
+# ---------- C. 德企 / 德语区(2026-09-04 加,接口地址未实测;跑完看日志,[失败] 的删掉) ----------
+- name: SAP
+  ats: successfactors
+  url: https://jobs.sap.com
+  location: Singapore
+  tags: [德企/德语区, 科技大厂]
+- name: Infineon
+  ats: successfactors
+  url: https://jobs.infineon.com
+  location: Singapore
+  tags: [德企/德语区, 半导体与硬件]
+- name: Continental / Aumovio
+  ats: smartrecruiters
+  slug: continental
+  tags: [德企/德语区, 半导体与硬件]
+- name: Carl Zeiss
+  ats: lever
+  slug: zeiss
+  tags: [德企/德语区]
+
 # ============================================================
 # 对照表:地址栏域名 -> ats 字段
 #   boards.greenhouse.io/xxx  或 job-boards.greenhouse.io/xxx -> ats: greenhouse, slug: xxx

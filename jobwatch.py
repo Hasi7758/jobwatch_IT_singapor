@@ -134,6 +134,30 @@ def db_connect():
     return conn
 
 
+TAGS_VERSION = "2026-09-04b"   # 改了标签规则就改这个字符串,下次运行会给库里全部职位重新打标签
+
+
+def retag_all(conn):
+    """标签规则变了:给库里所有职位按当前规则重打标签(cats 在入库时冻结,否则老数据永远是旧标签)。"""
+    row = conn.execute("SELECT v FROM meta WHERE k='tags_version'").fetchone()
+    if row and row[0] == TAGS_VERSION:
+        return
+    comp_tags = {}
+    for c in (load_yaml(COMPANIES_PATH, default={"companies": []}).get("companies") or []):
+        if c.get("name"):
+            comp_tags[c["name"].lower()] = c.get("tags") or []
+    n = 0
+    for uid, comp, title in conn.execute("SELECT uid, company, title FROM jobs").fetchall():
+        j = Job(uid=uid, source="", company=comp or "", title=title or "", location="", url="")
+        cats = classify(j, comp_tags.get((comp or "").lower()))
+        conn.execute("UPDATE jobs SET igm=? WHERE uid=?", (",".join(cats), uid))
+        n += 1
+    conn.execute("INSERT OR REPLACE INTO meta VALUES ('tags_version', ?)", (TAGS_VERSION,))
+    conn.commit()
+    if n:
+        print(f"标签规则已更新为 {TAGS_VERSION},重打了 {n} 条")
+
+
 def is_first_run(conn):
     row = conn.execute("SELECT v FROM meta WHERE k='seeded'").fetchone()
     return row is None
@@ -229,7 +253,7 @@ def age_label(j):
     return f"{src}于 {n} 天前"
 
 
-def all_current(conn, limit=500):
+def all_current(conn, limit=3000):
     """库中全部职位,新入库在前。"""
     rows = conn.execute(
         "SELECT company,title,location,url,posted,source,igm,first_seen FROM jobs "
@@ -915,7 +939,33 @@ JUNIOR_TERMS = [
 ]
 JUNIOR_TAG = "初级友好"
 
+GERMAN_TAG = "德企/德语区"
+
 CATEGORY_RULES = [
+    (GERMAN_TAG, [
+        # —— 德国 ——
+        "sap", "sap asia", "sap labs", "siemens", "siemens energy", "siemens mobility", "healthineers",
+        "infineon", "bosch", "bosch rexroth", "zeiss", "carl zeiss", "tuv sud", "tüv süd", "tuv süd", "tuv",
+        "dhl", "deutsche post", "deutsche", "deutsche bank", "deutsche telekom", "t-systems", "commerzbank",
+        "allianz", "munich re", "hannover re", "ergo", "talanx", "rohde & schwarz", "rohde", "continental",
+        "aumovio", "schaeffler", "bayer", "basf", "evonik", "merck", "henkel", "lufthansa", "festo", "sick",
+        "beckhoff", "trumpf", "porsche", "bmw", "mercedes", "mercedes-benz", "daimler", "volkswagen", "audi",
+        "zf", "kuka", "heidelberg", "knorr-bremse", "wacker", "covestro", "adidas", "hugo boss",
+        "sennheiser", "wurth", "würth", "kion", "dematic", "krones", "voith", "dräger", "draeger", "fresenius",
+        "b. braun", "sartorius", "celonis", "teamviewer", "hensoldt", "rheinmetall", "thyssenkrupp",
+        "siltronic", "aixtron", "jenoptik", "zalando", "hellofresh", "n26", "delivery hero", "foodpanda",
+        "sixt", "software ag", "e.on", "rwe", "man energy", "man truck", "liebherr", "pepperl", "phoenix contact",
+        "wago", "harting", "weidmüller", "weidmuller", "lapp", "hella", "mahle", "brose", "webasto", "vitesco",
+        "ottobock", "stihl", "kärcher", "karcher", "miele", "vorwerk", "german", "germany",
+        # —— 瑞士 / 奥地利 / 列支敦士登(德语区)——
+        "zühlke", "zuhlke", "zuehlke", "adnovum", "erni", "netcetera", "ubs", "credit suisse", "julius baer",
+        "vontobel", "lgt", "swiss re", "zurich insurance", "zurich", "abb", "roche", "novartis", "nestlé",
+        "nestle", "schindler", "sika", "logitech", "sonova", "straumann", "kuehne", "kuehne+nagel", "kühne",
+        "dksh", "swisscom", "on running", "swatch", "bühler", "buhler", "georg fischer", "sulzer", "avaloq",
+        "finnova", "crealogix", "additiv", "helvetia", "baloise", "swiss life", "partners group", "hilti",
+        "ivoclar", "dynatrace", "andritz", "voestalpine", "erste", "raiffeisen", "ams osram", "ams-osram",
+        "kapsch", "frequentis", "bitpanda", "swiss", "switzerland", "austria",
+    ]),
     ("科技大厂", [
         "google", "amazon", "aws", "amazon web services", "microsoft", "meta", "facebook", "apple",
         "netflix", "linkedin", "uber", "airbnb", "oracle", "ibm", "salesforce", "cisco", "dell",
@@ -1000,6 +1050,12 @@ CATEGORY_RULES = [
     ]),
     ("招聘中介", [
         "robert walters", "michael page", "page personnel", "randstad", "hays", "kelly services", "kelly",
+        # 2026-09 首次运行时 MCF 上发帖量最大的 IT 外包/派遣商
+        "talentsis", "itcan", "user experience researchers", "trinity consulting", "percept solutions",
+        "dadaconsultants", "vinova", "avensys", "jobster", "elliott moss", "zenith infotech", "goldtech",
+        "altrocks", "techcom solutions", "seven hills", "rapsys", "mindteck", "genesis networks", "encora",
+        "tangspac", "stafflink", "gemini personnel", "peoplesearch", "bgc group", "manpower staffing",
+        "adecco personnel",
         "persol", "jobline", "talent", "outsourcing", "hr solutions", "human resource",
         "persolkelly", "manpower", "manpowergroup", "adecco", "recruit express", "ambition",
         "morgan mckinley", "ethos beathchapman", "talent trader", "achieve career",
@@ -1102,7 +1158,8 @@ TAG_COLORS = {
     "互联网平台": "#0f766e",
     "金融科技与加密": "#b45309",
     "银行与金融机构": "#a16207",
-    "政府与公共部门": "#be123c",
+    "政府与公共部门": "#9ca3af",   # 走 EP 的话多数进不去,弱化显示
+    "德企/德语区": "#db2777",
     "咨询与IT服务": "#6b7280",
     "招聘中介": "#9ca3af",
     "中资出海": "#9333ea",
@@ -1130,17 +1187,23 @@ def render_html(day_groups, new_today, total_seen, first_run, cfg, fallback=None
     maxage = int(disp.get("max_age_days", 5))
     allj = fallback or []
 
-    fresh, older, junior_all = [], [], []
+    fresh, older, junior_all, german_all = [], [], [], []
     for j in allj:
         n, _ = job_age_days(j)
         (fresh if (n is not None and n <= maxage) else older).append(j)
-        if JUNIOR_TAG in (j.extra.get("cats") or []):
+        cats = j.extra.get("cats") or []
+        if JUNIOR_TAG in cats:
             junior_all.append(j)
+        if GERMAN_TAG in cats:
+            german_all.append(j)
 
     def by_age(js):
-        # 初级友好的排前面,其余按新旧
-        return sorted(js, key=lambda x: (0 if JUNIOR_TAG in (x.extra.get("cats") or []) else 1,
-                                         job_age_days(x)[0] if job_age_days(x)[0] is not None else 999))
+        # 初级友好的排最前;然后直接雇主排在中介/外包前面;同组内按新旧
+        def key(x):
+            cats = x.extra.get("cats") or []
+            n = job_age_days(x)[0]
+            return (0 if JUNIOR_TAG in cats else 1, 1 if "招聘中介" in cats else 0, n if n is not None else 999)
+        return sorted(js, key=key)
 
     def cards(js):
         return [_job_card(j) for j in by_age(js)]
@@ -1150,7 +1213,7 @@ def render_html(day_groups, new_today, total_seen, first_run, cfg, fallback=None
              "<title>新加坡 IT 新职位</title>", f"<style>{CSS}</style><div class=wrap>",
              "<h1>新加坡 · IT 新职位</h1>",
              "<div class=sub>Cloud · DevOps · Platform · AI · Software Engineer · 1 年经验友好,"
-             "已过滤 Senior/Lead 及 Data 类岗位</div>",
+             "已过滤 Senior/Lead 及 Data 类岗位 · 德企/德语区单列</div>",
              f"<div class=sub>更新于 {ts} UTC · 最近 {maxage} 天 <b>{len(fresh)}</b> 条"
              f"· 库中累计 {total_seen} 条</div>"]
 
@@ -1168,6 +1231,9 @@ def render_html(day_groups, new_today, total_seen, first_run, cfg, fallback=None
             f'{html.escape(c)} {n}</span>'
             for c, n in sorted(cnt.items(), key=chip_order))
         parts.append(f"<div class=chips>{chips}</div>")
+    parts.append('<div class=note>走 EP 提示:灰色「政府与公共部门」岗多数只收公民/PR;'
+                 '「招聘中介」是外包/派遣商发的合同岗,真实雇主未必是标出的那家;'
+                 '「德企/德语区」含德国、瑞士、奥地利公司,德语是加分项。</div>')
     parts.append(f"<div class=sec>最近 {maxage} 天内的职位 · {len(fresh)} 条</div>")
     if fresh:
         parts += cards(fresh)
@@ -1175,6 +1241,11 @@ def render_html(day_groups, new_today, total_seen, first_run, cfg, fallback=None
         parts.append(f'<div class=note>最近 {maxage} 天没有新职位(周末常见)。'
                      f'下面列出最新的一批供参考。</div>')
         parts += cards(older[:25])
+
+    if german_all:
+        parts.append(f"<div class=sec>德企 / 德语区公司在招 · {len(german_all)} 条"
+                     f"<span class=hint>(德国 · 瑞士 · 奥地利公司,不限日期)</span></div>")
+        parts += cards(german_all[:200])
 
     if junior_all:
         parts.append(f"<div class=sec>初级 / 毕业生友好岗位 · {len(junior_all)} 条"
@@ -1256,6 +1327,7 @@ def cmd_run(cfg):
 
 
     conn = db_connect()
+    retag_all(conn)
     win = int((cfg.get("display") or {}).get("recent_days", 2))
     first = is_first_run(conn)
     new = split_new(conn, kept)
