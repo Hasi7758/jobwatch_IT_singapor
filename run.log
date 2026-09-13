@@ -1,11 +1,11 @@
 抓取 MyCareersFuture…
-  拿到 2081 条
+  拿到 2038 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
   [OK] Ninja Van (lever)
   [OK] ByteDance / TikTok (smartrecruiters)
-  [OK] SHEIN (greenhouse)
+  [失败] SHEIN (greenhouse): ReadTimeout HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Read timed out. (read timeout=20)
   [OK] Stripe (greenhouse)
   [OK] Nium (lever)
   [OK] Xendit (greenhouse)
@@ -37,26 +37,18 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6133 条
+  拿到 6109 条
 
-过滤后 1347 / 8214 条符合关键词+地点
+过滤后 1324 / 8147 条符合关键词+地点
 
-★ 新职位 70 条
-  · Cloud/ DevOps Engineer (No experience required) — TALENTSIS PTE. LTD.
-  · Cloud Infrastructure Engineer (Familiar with Sharepoint Deve — ASSURITY TRUSTED SOLUTIONS PTE
-  · Hybrid Cloud Infrastructure Engineer — RECRUITCO PTE. LTD.
-  · [T04] Cloud Engineer (Open to fresher) - Permanent Role — TALENTSIS PTE. LTD.
-  · DevOps Engineer — TRINITY HR SOLUTIONS PTE. LTD.
-  · DevOps Engineer — ELLIOTT MOSS CONSULTING PTE. L
-  · [T04] DevOps Engineer (Kubernetes) - Permanent Role — TALENTSIS PTE. LTD.
-  · [T07] DevOps Engineer (Open to Fresh Graduates) — TALENTSIS PTE. LTD.
-  · DevOps Engineer — SAVANT INFOTECH SOLUTIONS PTE.
-  · ICT Infrastructure Engineer - #1610 — JOBSTER PRIVATE LTD.
-  · Infrastructure Engineer - Storage & Backup (2 Years Contract — MORGAN MCKINLEY PTE. LTD.
-  · IT Infrastructure Engineer (Healthcare) — RN CARE PTE. LTD.
-  · AI Engineer — ALLEGIS GROUP SINGAPORE PRIVAT
-  · AI Engineer — PERSOL SINGAPORE PTE. LTD.
-  · AI Engineer — JEET ANALYTICS PTE. LTD.
-  …另有 55 条
+★ 新职位 8 条
+  · Cloud Engineer — ELLIOTT MOSS CONSULTING PTE. L
+  · UNIX/Linux Infrastructure Engineer — ELLIOTT MOSS CONSULTING PTE. L
+  · Software Engineer — U3 INFOTECH PTE. LTD.
+  · Software Engineer — U3 PROJECTS PTE. LTD.
+  · Robotics Software Engineer (Fleet Management) — PERSOL SINGAPORE PTE. LTD.
+  · Full Stack Developer — ELEC-PRO TECHNOLOGY PTE. LTD.
+  · Full Stack Engineer (Generative AI Platform) (min 5 Years Ex — RHINO PARTNERS PTE. LTD.
+  · Full-Stack Software Engineer (GenAI Platforms) (4-7 Years Ex — RHINO PARTNERS PTE. LTD.
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
