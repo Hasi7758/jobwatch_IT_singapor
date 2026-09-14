@@ -1,11 +1,11 @@
 抓取 MyCareersFuture…
-  拿到 2038 条
+  拿到 1984 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
   [OK] Ninja Van (lever)
   [OK] ByteDance / TikTok (smartrecruiters)
-  [失败] SHEIN (greenhouse): ReadTimeout HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Read timed out. (read timeout=20)
+  [OK] SHEIN (greenhouse)
   [OK] Stripe (greenhouse)
   [OK] Nium (lever)
   [OK] Xendit (greenhouse)
@@ -37,18 +37,23 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6109 条
+  拿到 6426 条
 
-过滤后 1324 / 8147 条符合关键词+地点
+过滤后 1288 / 8410 条符合关键词+地点
 
-★ 新职位 8 条
-  · Cloud Engineer — ELLIOTT MOSS CONSULTING PTE. L
-  · UNIX/Linux Infrastructure Engineer — ELLIOTT MOSS CONSULTING PTE. L
-  · Software Engineer — U3 INFOTECH PTE. LTD.
-  · Software Engineer — U3 PROJECTS PTE. LTD.
-  · Robotics Software Engineer (Fleet Management) — PERSOL SINGAPORE PTE. LTD.
-  · Full Stack Developer — ELEC-PRO TECHNOLOGY PTE. LTD.
-  · Full Stack Engineer (Generative AI Platform) (min 5 Years Ex — RHINO PARTNERS PTE. LTD.
-  · Full-Stack Software Engineer (GenAI Platforms) (4-7 Years Ex — RHINO PARTNERS PTE. LTD.
+★ 新职位 13 条
+  · Engineer, Cloud Infrastructure & DevOps — SIMPLYGO PTE. LTD.
+  · Cloud Infrastructure Engineer (PaaS/CaaS/DevOps) | S$5,500 b — RECRUIT NOW SINGAPORE PTE. LTD
+  · DevOps Platform Engineer (PaaS/CaaS) | S$5,500 basic — RECRUIT NOW SINGAPORE PTE. LTD
+  · Platform Infrastructure Engineer (PaaS / Kubernetes / Linux) — RECRUIT NOW SINGAPORE PTE. LTD
+  · Software Engineer — 3X SOLUTION PRIVATE LIMITED
+  · Software Developer #83456 — ANRADUS PTE. LTD.
+  · Software Engineer (Training provided) — RECRUIT LYNC PTE. LTD.
+  · Software Engineer (C/C++, Semiconductor/Automation) — RECRUIT EXPERT PTE. LTD.
+  · Software Engineer (Computer Vision/Vision Inspection, C++) — RECRUIT EXPERT PTE. LTD.
+  · Software Developer - Java — DELTA SG CONSULTING
+  · OutSystems Developer — ACHIEVE CAREER CONSULTANT PTE 
+  · Full Stack Engineer (React / Node.js/ CMS) — INTUIT RECRUITMENT PTE. LTD.
+  · Full Stack Engineer (Frontend-focused) — INTUIT RECRUITMENT PTE. LTD.
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
