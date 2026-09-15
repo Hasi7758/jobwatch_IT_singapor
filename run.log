@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1984 条
+  拿到 2065 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,23 +37,28 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6426 条
+  拿到 6125 条
 
-过滤后 1288 / 8410 条符合关键词+地点
+过滤后 1353 / 8190 条符合关键词+地点
 
-★ 新职位 13 条
-  · Engineer, Cloud Infrastructure & DevOps — SIMPLYGO PTE. LTD.
-  · Cloud Infrastructure Engineer (PaaS/CaaS/DevOps) | S$5,500 b — RECRUIT NOW SINGAPORE PTE. LTD
-  · DevOps Platform Engineer (PaaS/CaaS) | S$5,500 basic — RECRUIT NOW SINGAPORE PTE. LTD
-  · Platform Infrastructure Engineer (PaaS / Kubernetes / Linux) — RECRUIT NOW SINGAPORE PTE. LTD
-  · Software Engineer — 3X SOLUTION PRIVATE LIMITED
-  · Software Developer #83456 — ANRADUS PTE. LTD.
-  · Software Engineer (Training provided) — RECRUIT LYNC PTE. LTD.
-  · Software Engineer (C/C++, Semiconductor/Automation) — RECRUIT EXPERT PTE. LTD.
-  · Software Engineer (Computer Vision/Vision Inspection, C++) — RECRUIT EXPERT PTE. LTD.
-  · Software Developer - Java — DELTA SG CONSULTING
-  · OutSystems Developer — ACHIEVE CAREER CONSULTANT PTE 
-  · Full Stack Engineer (React / Node.js/ CMS) — INTUIT RECRUITMENT PTE. LTD.
-  · Full Stack Engineer (Frontend-focused) — INTUIT RECRUITMENT PTE. LTD.
+(隐藏 3 条 政府与公共部门 岗位,仍入库)
+
+★ 新职位 73 条
+  · Cloud Engineer — NXGEN ASIA PTE. LTD.
+  · Cloud Engineer (AWS) — OPENSOURCE TECHNOLOGIES PTE. L
+  · Cloud Engineer (AWS) — OPENSOURCE PTE. LTD.
+  · [T02] Cloud/ DevOps Engineer (0-3 years of experience) — TALENTSIS PTE. LTD.
+  · Cloud Engineer (Fresh grads are welcome to apply!) — TALENTSIS PTE. LTD.
+  · Devops Engineer — V-ELEGANT PTE. LTD.
+  · Software DevOps Engineer — THALES SOLUTIONS ASIA PTE. LTD
+  · DevOps Engineer |Agency Contract — PERSOL SINGAPORE PTE. LTD.
+  · DevOps Engineer |Agency Contract — PERSOL SINGAPORE PTE. LTD.
+  · Graduate Cloud Infrastructure/DevOps Engineer (Fresh Graduat — TALENTSIS PTE. LTD.
+  · Remote DevOps Engineer — I-CONSULT TECH PTE. LTD.
+  · DevOps Engineer – Temenos T24 Wealth Management Platform — EXASOFT PTE. LTD.
+  · Site Reliability Engineer (SRE) – Multiple Opportunities, Te — DADACONSULTANTS PTE. LTD.
+  · SRE Engineer — ITCAN PTE. LIMITED
+  · Cyber Platform Engineer — ITCAN PTE. LIMITED
+  …另有 58 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
