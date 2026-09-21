@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 2096 条
+  拿到 1998 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,19 +37,23 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6163 条
+  拿到 6171 条
 
-过滤后 1358 / 8259 条符合关键词+地点
+过滤后 1309 / 8169 条符合关键词+地点
 
-★ 新职位 9 条
-  · enior ServiceNow & GCP Cloud Engineer — SANDBOX CONSULTING PTE. LTD.
+★ 新职位 13 条
   · Hybrid Cloud Infrastructure Engineer. — RECRUIT LYNC PTE. LTD.
-  · OpenShift Platform Engineer (Red Hat OpenShift/ AWS/ Kuberne — PERSOL SINGAPORE PTE. LTD.
-  · Infrastructure Engineer MAS — KOPI RECRUIT PTE. LTD.
-  · Machine Learning Engineer — STRT.ASIA PTE. LTD.
+  · AI Infrastructure Engineer — KAISHI PARTNERS PTE. LTD.
+  · IT Support & Infrastructure Engineer (Junior) — BLUZEN PTE. LTD.
+  · Technology & AI Engineer (Individual Contributor) — KAISHI PARTNERS PTE. LTD.
   · Software Engineer. — RECRUIT LYNC PTE. LTD.
-  · Software Developer (Dynamics CRM) — ALTROCKS TECH PTE. LTD.
-  · Financial Institution/Banking: Full stack developer (Python/ — THE RESOLUTE HUNTER PTE. LTD.
-  · OutSystems Developer — ACHIEVE CAREER CONSULTANT PTE 
+  · Software Engineer (C/C++, Semiconductor/Automation) — RECRUIT EXPERT PTE. LTD.
+  · Software Engineer (Computer Vision/Vision Inspection, C++) — RECRUIT EXPERT PTE. LTD.
+  · Robotics Software Engineer (Fleet Management) — HYUNDAI MOTOR GROUP INNOVATION
+  · Full Stack Engineer — AI Products — KAISHI PARTNERS PTE. LTD.
+  · Frontend / Full Stack Engineer — INTUIT RECRUITMENT PTE. LTD.
+  · Applications and System Programmer — OPTIMUM SOLUTIONS (SINGAPORE) 
+  · Programmer — CLARITY AV PTE. LTD.
+  · Software/ Full Stack Engineer (React / Node.js/ CMS) — INTUIT RECRUITMENT PTE. LTD.
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
