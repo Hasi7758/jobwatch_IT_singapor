@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1998 条
+  拿到 2040 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,23 +37,26 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6171 条
+  拿到 6283 条
 
-过滤后 1309 / 8169 条符合关键词+地点
+过滤后 1333 / 8323 条符合关键词+地点
 
-★ 新职位 13 条
+★ 新职位 78 条
+  · Cloud Engineer — BLUE OCEAN SYSTEMS INFOTECH PT
+  · Cloud Engineer — NSEARCH GLOBAL PTE. LTD.
+  · AWS Cloud Engineer — ALTROCKS TECH PTE. LTD.
   · Hybrid Cloud Infrastructure Engineer. — RECRUIT LYNC PTE. LTD.
-  · AI Infrastructure Engineer — KAISHI PARTNERS PTE. LTD.
-  · IT Support & Infrastructure Engineer (Junior) — BLUZEN PTE. LTD.
-  · Technology & AI Engineer (Individual Contributor) — KAISHI PARTNERS PTE. LTD.
-  · Software Engineer. — RECRUIT LYNC PTE. LTD.
-  · Software Engineer (C/C++, Semiconductor/Automation) — RECRUIT EXPERT PTE. LTD.
-  · Software Engineer (Computer Vision/Vision Inspection, C++) — RECRUIT EXPERT PTE. LTD.
-  · Robotics Software Engineer (Fleet Management) — HYUNDAI MOTOR GROUP INNOVATION
-  · Full Stack Engineer — AI Products — KAISHI PARTNERS PTE. LTD.
-  · Frontend / Full Stack Engineer — INTUIT RECRUITMENT PTE. LTD.
-  · Applications and System Programmer — OPTIMUM SOLUTIONS (SINGAPORE) 
-  · Programmer — CLARITY AV PTE. LTD.
-  · Software/ Full Stack Engineer (React / Node.js/ CMS) — INTUIT RECRUITMENT PTE. LTD.
+  · Devops Engineer — CORNERSTONE GLOBAL PARTNERS PT
+  · Site Reliability Engineer / DevOps — SILVERLINK TECHNOLOGIES PTE. L
+  · [T08] Entry Level DevOps Engineer (Fresh Grads) — TALENTSIS PTE. LTD.
+  · Remote DevOps Engineer — I-CONSULT TECH PTE. LTD.
+  · Site Reliability Engineer, Traffic Platform — BYTEDANCE PTE. LTD.
+  · Site Reliability Application Engineers (AI Platform) — ASTEK SINGAPORE INNOVATION TEC
+  · SRE Devops — EPERGNE SOLUTIONS PTE. LTD.
+  · Platform Engineer — NEWTONE CONSULTING PTE. LTD.
+  · AI AGENT PLATFORM ENGINEER - REMOTE — JDA WMS PTE. LTD.
+  · Platform Engineer (RHEL & OpenShift) — ZENITH INFOTECH (S) PTE LTD.
+  · TA and Platform Engineer (RHEL & OCP Specialist) — KRIS INFOTECH PTE. LTD.
+  …另有 63 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
