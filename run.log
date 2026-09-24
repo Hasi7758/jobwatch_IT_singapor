@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 2130 条
+  拿到 2112 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,26 +37,27 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6168 条
+  拿到 6286 条
+丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1397 / 8298 条符合关键词+地点
+过滤后 1375 / 8398 条符合关键词+地点
 
-★ 新职位 98 条
-  · Cloud Engineer — ACCORD INNOVATIONS PTE. LTD.
-  · Cloud Operations Engineer — CLOUDSINE PTE. LTD.
-  · Cloud Engineer Kubernetes — OPENSOURCE TECHNOLOGIES PTE. L
-  · Cloud Engineer- Kubernetes — OPENSOURCE PTE. LTD.
-  · Cloud Engineer(GCP) — ENCORA TECHNOLOGIES PTE. LTD.
-  · Azure Cloud Engineer (Platform Engineering) — OPTIMUM SOLUTIONS (SINGAPORE) 
-  · Hybrid Cloud Infrastructure Engineer. — RECRUIT LYNC PTE. LTD.
-  · [T07] Cloud Engineer - OPEN TO FRESH GRADUATES - Permanent — TALENTSIS PTE. LTD.
-  · Junior DevOps Engineer — FLINTEX CONSULTING PTE. LTD.
-  · DevOps Engineer |Agency Contract — PERSOL SINGAPORE PTE. LTD.
-  · DevOps Engineer |Agency Contract — PERSOL SINGAPORE PTE. LTD.
-  · [T07] DevOps Engineer (Entry Level) | Permanent — TALENTSIS PTE. LTD.
-  · DevOps / Site Reliability Engineer — ACCORD INNOVATIONS PTE. LTD.
-  · Site Reliability Engineer — U3 INFOTECH PTE. LTD.
-  · Site Reliability Engineer — U3 PROJECTS PTE. LTD.
-  …另有 83 条
+★ 新职位 73 条
+  · GCP Cloud Engineer — PERCEPT SOLUTIONS PTE. LTD.
+  · Cloud Infrastructure Engineer — SCIENTEC CONSULTING PTE. LTD.
+  · Cloud/DevOps Engineer [MANY VACANCIES] — TALENTSIS PTE. LTD.
+  · Cloud Developer - #1638 — JOBSTER PRIVATE LTD.
+  · Cloud Developer — NUVISTA TECHNOLOGIES PTE. LTD.
+  · [MANY] Junior Cloud/DevOps Engineers (No Experience Required — TALENTSIS PTE. LTD.
+  · [T05] Graduate Cloud Infrastructure Engineer (Fresh Graduate — TALENTSIS PTE. LTD.
+  · [T05] Cloud Infra Engineer (No experience required/ fresh gr — TALENTSIS PTE. LTD.
+  · Software & DevOps Engineer (Fresh Graduate Welcome) — TALENTSIS PTE. LTD.
+  · Graduate Cloud Infrastructure/DevOps Engineer (Fresh Graduat — TALENTSIS PTE. LTD.
+  · Power Platform Engineer — ADOMITA TECHNOLOGIES PTE. LTD.
+  · Power Platform Engineer — CAPGEMINI SINGAPORE  PTE. LTD.
+  · Infrastructure Engineer – Linux, Virtualization & AIX — PERCEPT SOLUTIONS PTE. LTD.
+  · ICT Infrastructure Engineer - #1641 — JOBSTER PRIVATE LTD.
+  · IT Infrastructure Engineer (Healthcare) — RN CARE PTE. LTD.
+  …另有 58 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
