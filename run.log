@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 2093 条
+  拿到 2010 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,27 +37,23 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6176 条
+  拿到 6173 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1361 / 8269 条符合关键词+地点
+过滤后 1305 / 8183 条符合关键词+地点
 
-★ 新职位 75 条
-  · Cloud Engineer — INFOCEPTS PTE. LTD.
-  · Cloud Engineer — JEET ANALYTICS PTE. LTD.
-  · Cloud Engineer — RISKDATA CONSULTING PTE. LTD.
-  · Cloud Engineer — UNISYNC SYSTEMS PTE. LTD.
-  · Cloud Engineer — UARROW PTE. LTD.
-  · Cloud Engineer — REGTECH INSIGHT PTE. LTD.
-  · Cloud Engineer — UNISONEDGE CONSULTING PTE. LTD
-  · Cloud Engineer(GCP) — HI5 CONSULTING SOLUTIONS PTE. 
-  · Cloud Engineer(GCP) — HI5 CONSULTING SOLUTIONS PTE. 
-  · Cloud Engineer(GCP) — HI5 CONSULTING SOLUTIONS PTE. 
-  · AWS Cloud Engineer — ALTROCKS TECH PTE. LTD.
-  · Google Cloud Engineer — TECHEMERGE SOLUTIONS PTE. LTD.
-  · Cloud Infrastructure Engineer, Central — AMBITION GROUP SINGAPORE PTE. 
-  · Cloud Engineer - Multiple Openings - Permanent Role — TALENTSIS PTE. LTD.
-  · Cloud Developer — USER EXPERIENCE RESEARCHERS PT
-  …另有 60 条
+★ 新职位 12 条
+  · Google Cloud Engineer — QUANTUM INFOTECH SOLUTIONS PTE
+  · AI engineer — BITRALIS PTE. LTD.
+  · Software Engineer – SECS/GEM & Factory Automation — INSPHERE TECHNOLOGY PTE. LTD.
+  · Trading Platform Application Developer — QUANTUM INFOTECH SOLUTIONS PTE
+  · OutSystems Developer — ACHIEVE CAREER CONSULTANT PTE 
+  · Java Developer(J2EE, Spring Boot, Microservices, AWS, Azure, — EXASOFT CONSULTING PTE. LTD.
+  · Java Developer(J2EE, Spring Boot, Microservices, AWS, Azure, — EXASOFT CONSULTING PTE. LTD.
+  · Java Developer(J2EE, Spring Boot, Microservices, AWS, Azure, — EVYONIC SOLUTIONS PTE. LTD.
+  · Java Developer(J2EE, Spring Boot, Microservices, AWS, Azure, — EVYONIC SOLUTIONS PTE. LTD.
+  · Financial Institution/Banking: Full stack developer (Python/ — THE RESOLUTE HUNTER PTE. LTD.
+  · Java Developer (J2EE, Spring Boot, Kafka, K8s, PCI DSS, AWS, — EXASOFT CONSULTING PTE. LTD.
+  · Java Developer (J2EE, Spring Boot, Kafka, K8s, PCI DSS, AWS, — EXASOFT CONSULTING PTE. LTD.
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
