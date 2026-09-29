@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1984 条
+  拿到 2015 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,27 +37,29 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6176 条
+  拿到 6181 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1292 / 8160 条符合关键词+地点
+过滤后 1315 / 8196 条符合关键词+地点
 
-★ 新职位 26 条
-  · Cloud Infrastructure Engineer (PaaS/CaaS/DevOps) | S$5,500 b — RECRUIT NOW SINGAPORE PTE. LTD
-  · DevOps Platform Engineer (PaaS/CaaS) | S$5,500 basic — RECRUIT NOW SINGAPORE PTE. LTD
-  · Platform Infrastructure Engineer (PaaS / Kubernetes / Linux) — RECRUIT NOW SINGAPORE PTE. LTD
-  · AI Engineer — HELIUS TECHNOLOGIES PTE. LTD.
-  · System Software Engineer — HYUNDAI MOTOR GROUP INNOVATION
-  · Software Engineer/ Full Stack Engineer — STAR CAREER CONSULTING PTE. LT
-  · Robotics Software Engineer (Fleet Management) — HYUNDAI MOTOR GROUP INNOVATION
-  · Full Stack Engineer (Frontend-focused) — INTUIT RECRUITMENT PTE. LTD.
-  · Software Engineer (C++, Embedded system) Automation - VTTO — RECRUITPEDIA PTE. LTD.
-  · Full Stack Engineer (React / Node.js/ CMS) — INTUIT RECRUITMENT PTE. LTD.
-  · Ruby on Rails Software Engineer (Full-stack) — GRAIN PTE. LTD.
-  · Technical Programmer — SUS AUTOMATION & ENGINEERING P
-  · Full Stack Developer — EXCELTECH COMPUTERS PTE. LTD.
-  · Full Stack developer — HELIUS TECHNOLOGIES PTE. LTD.
-  · Java developer (Kafka, Flowable, State Machine, JMS, Spring  — EVYONIC SOLUTIONS PTE. LTD.
-  …另有 11 条
+(隐藏 2 条 政府与公共部门 岗位,仍入库)
+
+★ 新职位 65 条
+  · Cloud Engineer — ELLIOTT MOSS CONSULTING PTE. L
+  · Cloud Engineer (AliCloud Specialist) — NES GLOBAL PTE. LTD.
+  · Cloud Infrastructure Engineer — ELLIOTT MOSS CONSULTING PTE. L
+  · Cloud/ DevOps Engineer (MANY VACANCIES) — TALENTSIS PTE. LTD.
+  · Azure Infrastructure Engineer — AVENSYS CONSULTING PTE. LTD.
+  · Cloud Engineer (GCP, Terraform, GKE, Spark, Dataproc, BigQue — EXASOFT CONSULTING PTE. LTD.
+  · Cloud Engineer (GCP, Terraform, GKE, Spark, Dataproc, BigQue — EXASOFT CONSULTING PTE. LTD.
+  · [T04] Cloud Engineer (Open to fresher) - Permanent Role — TALENTSIS PTE. LTD.
+  · DevOps / DevSecOps Engineer (Contract) — NICOLL CURTIN TECHNOLOGY PTE. 
+  · [T04] DevOps Engineer (Kubernetes) - Permanent Role — TALENTSIS PTE. LTD.
+  · Remote DevOps Engineer — I-CONSULT TECH PTE. LTD.
+  · Site Reliability Engineer (SRE) — ASTEK SINGAPORE INNOVATION TEC
+  · Site Reliability Engineer (SRE) - Contract - — NICOLL CURTIN TECHNOLOGY PTE. 
+  · Site Reliability Engineer (AI Platform) — ALLEGIS GROUP SINGAPORE PRIVAT
+  · DevSecOps & Platform Engineer — CMC-APAC PRIVATE LIMITED
+  …另有 50 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
