@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 2015 条
+  拿到 2082 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,29 +37,29 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6181 条
+  拿到 6143 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1315 / 8196 条符合关键词+地点
+过滤后 1356 / 8225 条符合关键词+地点
 
-(隐藏 2 条 政府与公共部门 岗位,仍入库)
+(隐藏 3 条 政府与公共部门 岗位,仍入库)
 
-★ 新职位 65 条
-  · Cloud Engineer — ELLIOTT MOSS CONSULTING PTE. L
-  · Cloud Engineer (AliCloud Specialist) — NES GLOBAL PTE. LTD.
-  · Cloud Infrastructure Engineer — ELLIOTT MOSS CONSULTING PTE. L
-  · Cloud/ DevOps Engineer (MANY VACANCIES) — TALENTSIS PTE. LTD.
-  · Azure Infrastructure Engineer — AVENSYS CONSULTING PTE. LTD.
-  · Cloud Engineer (GCP, Terraform, GKE, Spark, Dataproc, BigQue — EXASOFT CONSULTING PTE. LTD.
-  · Cloud Engineer (GCP, Terraform, GKE, Spark, Dataproc, BigQue — EXASOFT CONSULTING PTE. LTD.
-  · [T04] Cloud Engineer (Open to fresher) - Permanent Role — TALENTSIS PTE. LTD.
-  · DevOps / DevSecOps Engineer (Contract) — NICOLL CURTIN TECHNOLOGY PTE. 
-  · [T04] DevOps Engineer (Kubernetes) - Permanent Role — TALENTSIS PTE. LTD.
-  · Remote DevOps Engineer — I-CONSULT TECH PTE. LTD.
-  · Site Reliability Engineer (SRE) — ASTEK SINGAPORE INNOVATION TEC
-  · Site Reliability Engineer (SRE) - Contract - — NICOLL CURTIN TECHNOLOGY PTE. 
-  · Site Reliability Engineer (AI Platform) — ALLEGIS GROUP SINGAPORE PRIVAT
-  · DevSecOps & Platform Engineer — CMC-APAC PRIVATE LIMITED
-  …另有 50 条
+★ 新职位 91 条
+  · Cloud Operations Engineer — ARISTA NETWORKS SINGAPORE PRIV
+  · Cloud Engineer (AMK) — MAESTRO HUMAN RESOURCE PTE. LT
+  · Cloud Developer — V-ELEGANT PTE. LTD.
+  · Cloud Infrastructure Engineer (Azure/AWS) — NEUTRON PTE. LTD.
+  · Cloud Engineer (GCP, Terraform, GKE, Spark, Dataproc, BigQue — EVYONIC SOLUTIONS PTE. LTD.
+  · Cloud Engineer (GCP, Terraform, GKE, Spark, Dataproc, BigQue — EVYONIC SOLUTIONS PTE. LTD.
+  · Cloud Engineer (Permanent/Open to Fresh Graduates) — TALENTSIS PTE. LTD.
+  · CLOUD & INFRASTRUCTURE ENGINEER — FLOTECH CONTROLS PTE LTD
+  · Software Engineer (AWS) — CAPGEMINI SINGAPORE  PTE. LTD.
+  · Software Engineer (AWS Lambda, Aurora,Terraform, Banking, Sp — NEPTUNEZ SINGAPORE PTE. LTD.
+  · Software Engineer (AWS Lambda, Aurora,Terraform, Banking, Sp — NEPTUNEZ SINGAPORE PTE. LTD.
+  · Software Engineer (AWS Lambda, Aurora,Terraform, Banking, Sp — EXASOFT PTE. LTD.
+  · DevOps Engineer*** — ETHOS SEARCH ASSOCIATES PTE. L
+  · Junior DevOps Engineer — FLINTEX CONSULTING PTE. LTD.
+  · Full-Stack Engineer (Cloud & DevOps) — XTREMAX PTE. LTD.
+  …另有 76 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
