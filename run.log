@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 2082 条
+  拿到 2057 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,29 +37,29 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6143 条
+  拿到 6139 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1356 / 8225 条符合关键词+地点
+过滤后 1335 / 8196 条符合关键词+地点
 
-(隐藏 3 条 政府与公共部门 岗位,仍入库)
+(隐藏 1 条 政府与公共部门 岗位,仍入库)
 
-★ 新职位 91 条
-  · Cloud Operations Engineer — ARISTA NETWORKS SINGAPORE PRIV
-  · Cloud Engineer (AMK) — MAESTRO HUMAN RESOURCE PTE. LT
-  · Cloud Developer — V-ELEGANT PTE. LTD.
-  · Cloud Infrastructure Engineer (Azure/AWS) — NEUTRON PTE. LTD.
-  · Cloud Engineer (GCP, Terraform, GKE, Spark, Dataproc, BigQue — EVYONIC SOLUTIONS PTE. LTD.
-  · Cloud Engineer (GCP, Terraform, GKE, Spark, Dataproc, BigQue — EVYONIC SOLUTIONS PTE. LTD.
-  · Cloud Engineer (Permanent/Open to Fresh Graduates) — TALENTSIS PTE. LTD.
-  · CLOUD & INFRASTRUCTURE ENGINEER — FLOTECH CONTROLS PTE LTD
-  · Software Engineer (AWS) — CAPGEMINI SINGAPORE  PTE. LTD.
-  · Software Engineer (AWS Lambda, Aurora,Terraform, Banking, Sp — NEPTUNEZ SINGAPORE PTE. LTD.
-  · Software Engineer (AWS Lambda, Aurora,Terraform, Banking, Sp — NEPTUNEZ SINGAPORE PTE. LTD.
-  · Software Engineer (AWS Lambda, Aurora,Terraform, Banking, Sp — EXASOFT PTE. LTD.
-  · DevOps Engineer*** — ETHOS SEARCH ASSOCIATES PTE. L
-  · Junior DevOps Engineer — FLINTEX CONSULTING PTE. LTD.
-  · Full-Stack Engineer (Cloud & DevOps) — XTREMAX PTE. LTD.
-  …另有 76 条
+★ 新职位 67 条
+  · Cloud Engineer — ZENTACT SYSTEMS PTE. LTD.
+  · Cloud Operations Engineer — LOGICALIS SINGAPORE PTE. LTD.
+  · Azure DevOps Engineer (Cloud Platform & Infrastructure) — PROVIDEND HOLDING PRIVATE LIMI
+  · GCP Cloud Automation Engineer / SRE — IOTALENTS PTE. LTD.
+  · LiveOps Cloud Engineer #2209 — EDUCARE HUMAN CAPITAL PRIVATE 
+  · GCP Cloud Automation Engineer / SRE — AVENSYS CONSULTING PTE. LTD.
+  · [T02] Cloud/ DevOps Engineer (MANY VACANCIES) — TALENTSIS PTE. LTD.
+  · [MANY] Junior Cloud/DevOps Engineers (No Experience Required — TALENTSIS PTE. LTD.
+  · DevOps Engineer — SAVANT INFOTECH SOLUTIONS PTE.
+  · [T02] Cloud/ DevOps Engineer (Open to fresh entry level) — TALENTSIS PTE. LTD.
+  · Linux Platform Engineer (Contract) — ICON OUTSOURCING
+  · Infrastructure Engineer — ZENTACT SYSTEMS PTE. LTD.
+  · Network Infrastructure Engineer — CYBERSENSE SOLUTIONS PTE. LTD.
+  · Network Infrastructure Engineer - (up to $7,000 base + AWS + — TYSON JAY MANAGEMENT PTE. LTD.
+  · IT Infrastructure Engineer (Healthcare) — RN CARE PTE. LTD.
+  …另有 52 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
