@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 2004 条
+  拿到 1995 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,29 +37,29 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6143 条
+  拿到 6153 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1303 / 8147 条符合关键词+地点
+过滤后 1292 / 8148 条符合关键词+地点
 
-(隐藏 1 条 政府与公共部门 岗位,仍入库)
+(隐藏 3 条 政府与公共部门 岗位,仍入库)
 
-★ 新职位 60 条
-  · Cloud Engineer — QUESSCORP SINGAPORE PTE. LTD.
-  · Cloud Infrastructure Engineer — SAGL CONSULTING PTE. LTD.
-  · GCP Cloud Automation Engineer / SRE — IDC TECHNOLOGIES (SINGAPORE) P
-  · Cloud & Platform Engineer | 12-Month Contract | Public Secto — BGC GROUP PTE. LTD.
-  · Software Engineer (AWS Ops, Python, Typescript/ Javascript) — NTT SINGAPORE PTE. LTD.
-  · Devops Engineer — DEVOPSLABS PRIVATE LTD.
-  · DevOps Engineer – Kubernetes & Observability _ Contract — NTT SINGAPORE PTE. LTD.
-  · Remote DevOps Engineer — I-CONSULT TECH PTE. LTD.
-  · Site Reliability Administrator  - Contract, Roaming — PERSOL SINGAPORE PTE. LTD.
-  · Virtualisation Platform Engineer — PURVIEW ASIA PACIFIC PTE. LTD.
-  · Power Platform Engineer — ADOMITA TECHNOLOGIES PTE. LTD.
+★ 新职位 61 条
+  · Cloud Engineer (AWS/AZURE) — PERSOL SINGAPORE PTE. LTD.
+  · Cloud & Platform Engineer (Cashew) — SEACARE MANPOWER SERVICES PTE 
+  · Cloud Engineer – Entry Level/ Fresh Graduates — TALENTSIS PTE. LTD.
+  · [T04] Cloud Engineer (Open to fresher) - Permanent Role — TALENTSIS PTE. LTD.
+  · DevOps Engineer (AI Platform)DevOps Engineer — GOLDTECH RESOURCES PTE LTD
+  · DevOps Engineer — QUESS SELECTION & SERVICES PTE
+  · Power Platform Engineer — ESPIRE INFOLABS (SINGAPORE) PT
+  · Backend / Platform Engineer — CLIPLY PTE. LTD.
+  · IT Infrastructure Engineer - A26269 — ACTIVATE INTERACTIVE PTE LTD
+  · Infrastructure Engineer / System Engineer — UIC ASIAN COMPUTER SERVICES PT
+  · Network & Infrastructure Engineer — GOLDTECH RESOURCES PTE LTD
+  · Infrastructure Engineer (Junior) — NEWTONE CONSULTING PTE. LTD.
+  · Infrastructure Engineer (12 months agency contract) — PERSOL SINGAPORE PTE. LTD.
   · IT Infrastructure Engineer (Healthcare) — RN CARE PTE. LTD.
-  · IT Infrastructure Engineer (West | Perm) — GMP TECHNOLOGIES (S) PTE LTD
-  · AI Engineer — ALLEGIS GROUP SINGAPORE PRIVAT
-  · Ai Engineer — NORGES BANK SINGAPORE BRANCH
-  …另有 45 条
+  · AI ENGINEER — RMR INTERNATIONAL PRIVATE LIMI
+  …另有 46 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
