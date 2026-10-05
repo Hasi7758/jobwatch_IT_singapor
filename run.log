@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1949 条
+  拿到 1904 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,12 +37,21 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6154 条
+  拿到 6153 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1256 / 8103 条符合关键词+地点
+过滤后 1235 / 8057 条符合关键词+地点
 
-★ 新职位 1 条
-  · OutSystems Developer — ACHIEVE CAREER CONSULTANT PTE 
+(隐藏 1 条 政府与公共部门 岗位,仍入库)
+
+★ 新职位 8 条
+  · Cloud & Platform Engineer (DevSecOps & Operations) — BUSINESS EDGE PERSONNEL SERVIC
+  · AI Engineer — SHARE RESOURCES PRIVATE LIMITE
+  · Software Developer — V-ELEGANT PTE. LTD.
+  · SOFTWARE ENGINEER — ICAS TECHNOLOGY (S) PTE LTD
+  · Full Stack Engineer (Frontend-focused) — INTUIT RECRUITMENT PTE. LTD.
+  · Software Engineer (C++, Embedded system) Automation - VTTO — RECRUITPEDIA PTE. LTD.
+  · Full Stack Engineer (React / Node.js/ CMS) — INTUIT RECRUITMENT PTE. LTD.
+  · SYSTEM DEVELOPER — WSH EXPERTS PTE. LTD.
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
