@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1948 条
+  拿到 1979 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,29 +37,29 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6187 条
+  拿到 6230 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1282 / 8135 条符合关键词+地点
+过滤后 1306 / 8209 条符合关键词+地点
 
 (隐藏 1 条 政府与公共部门 岗位,仍入库)
 
-★ 新职位 78 条
-  · Cloud & Platform Engineer (DevSecOps & Operations) — PERSOL SINGAPORE PTE. LTD.
-  · Hybrid Cloud Infrastructure Engineer — RECRUITCO PTE. LTD.
-  · Cloud Infra Engineer (No experience required/ fresh grads ar — TALENTSIS PTE. LTD.
-  · Software & DevOps Engineer (Fresh Graduate Welcome) — TALENTSIS PTE. LTD.
-  · Infrastructure / DevOps Support Engineer — LYNEER CORP (SINGAPORE) PTE. L
-  · DevOps Engineer – Terraform / AWS / Kubernetes — NEXTLABS INTERNATIONAL PRIVATE
-  · Graduate Cloud Infrastructure/DevOps Engineer (Fresh Graduat — TALENTSIS PTE. LTD.
-  · Remote DevOps Engineer — I-CONSULT TECH PTE. LTD.
-  · Production Support Engineer (Site Reliability Engineer) — MORGAN MCKINLEY PTE. LTD.
-  · Site Reliability Engineer (FX Production) — NICOLL CURTIN TECHNOLOGY PTE. 
-  · Site Reliability Engineer / Production Support – FX Trading  — ARGYLL SCOTT CONSULTING PTE. L
-  · Platform Engineer — ENGGSOL PTE. LTD.
-  · Power Platform Engineer — TEKISHUB CONSULTING SERVICES P
-  · Platform Engineer (Ceph Storage Specialist) - #1678 — JOBSTER PRIVATE LTD.
-  · Platform Engineer (Ceph Storage) — NSEARCH GLOBAL PTE. LTD.
-  …另有 63 条
+★ 新职位 73 条
+  · Cloud Engineer/Platform infrastructure Engineer — RAPSYS TECHNOLOGIES PTE. LTD.
+  · [T02] Cloud Engineer [Open to fresh entry level] — TALENTSIS PTE. LTD.
+  · DevOps Engineer — SEA CONSORTIUM PRIVATE LIMITED
+  · DevOps Engineer — ONEBYZERO PTE. LTD.
+  · Junior DevOps Engineer — FLINTEX CONSULTING PTE. LTD.
+  · Production Support / Site Reliability Engineer (Trading Plat — NICOLL CURTIN TECHNOLOGY PTE. 
+  · Platform Engineer — ZENTACT SYSTEMS PTE. LTD.
+  · Platform Engineer - Ceph Storage Specialist (Public Sector) — WEBSPARKS PTE. LTD.
+  · Innovation Sandbox Platform Engineer (Cloud & Enablement) — EXCELTECH COMPUTERS PTE. LTD.
+  · Infrastructure Engineer — HI5 CONSULTING SOLUTIONS PTE. 
+  · Infrastructure Engineer — HI5 CONSULTING SOLUTIONS PTE. 
+  · Infrastructure Engineer — HI5 CONSULTING SOLUTIONS PTE. 
+  · ICT Infrastructure Engineer - #1683 — JOBSTER PRIVATE LTD.
+  · IT Support Infrastructure Engineer - Permanent — GMP TECHNOLOGIES (S) PTE LTD
+  · AI ENGINEER — LESUS ENGINEERING PTE. LTD.
+  …另有 58 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
