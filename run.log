@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1979 条
+  拿到 1944 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,29 +37,27 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6230 条
+  拿到 6244 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1306 / 8209 条符合关键词+地点
+过滤后 1299 / 8188 条符合关键词+地点
 
-(隐藏 1 条 政府与公共部门 岗位,仍入库)
-
-★ 新职位 73 条
-  · Cloud Engineer/Platform infrastructure Engineer — RAPSYS TECHNOLOGIES PTE. LTD.
-  · [T02] Cloud Engineer [Open to fresh entry level] — TALENTSIS PTE. LTD.
-  · DevOps Engineer — SEA CONSORTIUM PRIVATE LIMITED
-  · DevOps Engineer — ONEBYZERO PTE. LTD.
-  · Junior DevOps Engineer — FLINTEX CONSULTING PTE. LTD.
-  · Production Support / Site Reliability Engineer (Trading Plat — NICOLL CURTIN TECHNOLOGY PTE. 
-  · Platform Engineer — ZENTACT SYSTEMS PTE. LTD.
-  · Platform Engineer - Ceph Storage Specialist (Public Sector) — WEBSPARKS PTE. LTD.
-  · Innovation Sandbox Platform Engineer (Cloud & Enablement) — EXCELTECH COMPUTERS PTE. LTD.
-  · Infrastructure Engineer — HI5 CONSULTING SOLUTIONS PTE. 
-  · Infrastructure Engineer — HI5 CONSULTING SOLUTIONS PTE. 
-  · Infrastructure Engineer — HI5 CONSULTING SOLUTIONS PTE. 
-  · ICT Infrastructure Engineer - #1683 — JOBSTER PRIVATE LTD.
-  · IT Support Infrastructure Engineer - Permanent — GMP TECHNOLOGIES (S) PTE LTD
-  · AI ENGINEER — LESUS ENGINEERING PTE. LTD.
-  …另有 58 条
+★ 新职位 67 条
+  · Cloud Engineer — QUESSCORP SINGAPORE PTE. LTD.
+  · [MANY] Junior Cloud/DevOps Engineers (No Experience Required — TALENTSIS PTE. LTD.
+  · [T07] Cloud Engineer - OPEN TO FRESH GRADUATES - Permanent — TALENTSIS PTE. LTD.
+  · DevOps Engineer — YM GLOBAL TECHNOLOGIES PTE. LT
+  · DevOps Engineer — COGNIZANT TECHNOLOGY SOLUTIONS
+  · DevOps Engineer — THE SOFTWARE PRACTICE PTE. LTD
+  · DevOps Engineer — INNERGY CONSULTING PTE. LTD.
+  · Full Stack DevOps Engineer — RAPSYS TECHNOLOGIES PTE. LTD.
+  · Software Engineer / DevOps Engineer (Platform & Infrastructu — KOPI RECRUIT PTE. LTD.
+  · SRE Engineer — TRINITY CONSULTING SERVICES PT
+  · Infrastructure Engineer (Network) — SCIENTEC CONSULTING PTE. LTD.
+  · Infrastructure Engineer (Fresh Graduates Welcome) — ULTRAFLEX TECHNOLOGY PTE LTD
+  · IT Infrastructure Engineer — TALENT FIRST PTE. LTD.
+  · Network Infrastructure Engineer - (up to $7,000 base + AWS + — TYSON JAY MANAGEMENT PTE. LTD.
+  · AI Engineer — ZERO BYTE LABS PTE. LTD.
+  …另有 52 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
