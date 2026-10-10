@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1964 条
+  拿到 1934 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,27 +37,27 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6650 条
+  拿到 6685 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1372 / 8614 条符合关键词+地点
+过滤后 1354 / 8619 条符合关键词+地点
 
-★ 新职位 84 条
-  · Cloud Engineer — XTREMAX PTE. LTD.
-  · Cloud Engineer — XTREMAX PTE. LTD.
-  · Cloud Specialist Engineer — AVENSYS CONSULTING PTE. LTD.
-  · Cloud Specialist Engineer — AVENSYS CONSULTING PTE. LTD.
-  · Hybrid Cloud Engineer (L2) — AVATAR MODERN TECHNO SERVICES 
-  · CloudOps Engineer — ADECCO PERSONNEL PTE LTD
-  · [T04] Cloud Engineer (Open to fresher) - Permanent Role — TALENTSIS PTE. LTD.
-  · DevOps Engineer — FLARE CONSULTING PTE. LTD.
-  · DevOps Engineer — USER EXPERIENCE RESEARCHERS PT
-  · Cloud Devops Engineer — TEMUS PTE. LTD.
-  · Junior DevOps Engineer - #1686 — JOBSTER PRIVATE LTD.
-  · DevOps Engineer — USER EXPERIENCE RESEARCHERS PT
-  · DevOps Engineer (Open to Fresh Graduates) — TALENTSIS PTE. LTD.
-  · DevOps Engineer (DevSecOps| ITIL | CI/CD | GOVT | up to $550 — BGC GROUP PTE. LTD.
-  · Contract Bank FXIT Production Support (Site Reliability Engi — HR-PRO RECRUITMENT SERVICES PT
-  …另有 69 条
+★ 新职位 59 条
+  · Cloud Infra Developer (Cloud Engineer) — ITCAN PTE. LIMITED
+  · Cloud/DevOps Engineer (Many Positions/Permanent) — TALENTSIS PTE. LTD.
+  · Platform Infrastructure Engineer (AWS Platform & DevSecOps)  — TANGSPAC CONSULTING PTE LTD
+  · DevOps Engineer (DevLabs by AngelHack) — STACKTRIBE PTE. LTD.
+  · DevOps Engineer — INNOVATIQ TECHNOLOGIES PTE. LT
+  · Site Reliability Engineer (Devops) — SCIENTEC CONSULTING PTE. LTD.
+  · DevOps Engineer –Kubernetes/OpenShift, OpenTelemetry & Enter — RECRUIT EXPRESS PTE LTD
+  · Remote DevOps Engineer — I-CONSULT TECH PTE. LTD.
+  · DevOps Engineer –Kubernetes/OpenShift, OpenTelemetry & Enter — RECRUIT EXPRESS PTE LTD
+  · Site Reliability Engineer — AVENSYS CONSULTING PTE. LTD.
+  · Platform Engineer / Ceph Storage — NSEARCH GLOBAL PTE. LTD.
+  · Red Hat OpenShift Platform Engineer (Kubernetes, AWS, RHEL,  — NOVACLOUD SYSTEMS PTE. LTD.
+  · Red Hat OpenShift Platform Engineer (Kubernetes, AWS, RHEL,  — NOVACLOUD SYSTEMS PTE. LTD.
+  · ICT Infrastructure Engineer (Network & Security) — INNOVATIQ TECHNOLOGIES PTE. LT
+  · IT Infrastructure Engineer (Healthcare) — RN CARE PTE. LTD.
+  …另有 44 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
