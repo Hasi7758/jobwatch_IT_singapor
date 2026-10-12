@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1880 条
+  拿到 1834 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,20 +37,26 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6683 条
+  拿到 6676 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1315 / 8563 条符合关键词+地点
+过滤后 1286 / 8510 条符合关键词+地点
 
-★ 新职位 9 条
-  · AI Engineer — PERSOL SINGAPORE PTE. LTD.
-  · APPLICATIONS DEVELOPER — HELIUS TECHNOLOGIES PTE. LTD.
-  · Software Engineer, Cloud Native Observability Management Pla — BYTEDANCE PTE. LTD.
-  · Software Developer - Cloud-Based Accounting ERP Developers — ACCURATE SOLUTIONS PTE. LTD.
-  · Full Stack Engineer (AI/Python/React) — PERSOL SINGAPORE PTE. LTD.
-  · .Net Developer (AWS/Azure/ Angular) — PERSOL SINGAPORE PTE. LTD.
-  · OutSystems Developer — ACHIEVE CAREER CONSULTANT PTE 
-  · WEB DESIGNER AND DEVELOPER — CHAMPION ENGINEERING & SERVICE
-  · Financial Institution/Banking: Full stack developer (Python/ — THE RESOLUTE HUNTER PTE. LTD.
+★ 新职位 15 条
+  · DevOps Engineer — PIVOT SEARCH PTE. LTD.
+  · AI Engineer — INFOSYS COMPAZ PTE. LTD.
+  · AI Engineer (Generative AI & 3D Computing ) — NEXBRIDGE RECRUITMENT PTE. LTD
+  · Backend Developer — KOPI RECRUIT PTE. LTD.
+  · Java Developer — EAST / WEST — COMBUILDER PTE LTD
+  · .NET Developer — ERP21 PTE LTD
+  · Software Engineer (C++, Embedded system) Automation - VTTO — RECRUITPEDIA PTE. LTD.
+  · Java Backend Engineer — PIVOT SEARCH PTE. LTD.
+  · Software Engineer (Oracle ERP) — ALPHA X TECHNOLOGY PTE. LTD.
+  · Software Engineer - 3D / Simulation (Permanent) — GMP TECHNOLOGIES (S) PTE LTD
+  · Full Stack Engineer (Frontend-focused) — INTUIT RECRUITMENT PTE. LTD.
+  · Full Stack Engineer (React / Node.js/ CMS) — INTUIT RECRUITMENT PTE. LTD.
+  · Automation Software Engineer [SL] — WECRUIT PTE. LTD.
+  · Urgent: Automation Software Engineer (manufacturing) — ACHIEVE CAREER CONSULTANT PTE 
+  · Software developer [Architecture & Integration] [DevOps & De — MANPOWER STAFFING SERVICES (SI
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
