@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1900 条
+  拿到 1861 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -26,7 +26,7 @@
   [OK] Palantir (lever)
   [OK] Motional (greenhouse)
   [OK] NVIDIA (workday)
-  [OK] Salesforce (workday)
+  [失败] Salesforce (workday): HTTPError 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs
   [OK] Adobe (workday)
   [OK] PayPal (workday)
   [OK] Mastercard (workday)
@@ -37,25 +37,19 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6338 条
+  拿到 6280 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1303 / 8238 条符合关键词+地点
+过滤后 1282 / 8141 条符合关键词+地点
 
-(隐藏 1 条 政府与公共部门 岗位,仍入库)
-
-★ 新职位 12 条
-  · AI engineer — RANDSTAD PTE. LIMITED
-  · AI engineer — RANDSTAD PTE. LIMITED
-  · Forward Deployed AI Engineer — ACCESS PEOPLE (SINGAPORE) PTE.
-  · Gen AI Engineer — INTERLOCK SECURITY AND INVESTI
-  · Software  Engineer (C#, Windows) — INTVER GLOBAL CONSULTING
-  · Applications developer — RANDSTAD PTE. LIMITED
-  · Applications developer — RANDSTAD PTE. LIMITED
-  · Robotics Autonomy Software Engineer — BEEX PTE. LTD.
-  · Robotics Autonomy Software Engineer — BEEX PTE. LTD.
-  · Full Stack Engineer (React/ Node/ .NET) — INTUIT RECRUITMENT PTE. LTD.
-  · Frontend / Full Stack Engineer — INTUIT RECRUITMENT PTE. LTD.
-  · Software/ Full Stack Engineer (React / Node.js/ CMS) — INTUIT RECRUITMENT PTE. LTD.
+★ 新职位 8 条
+  · Cloud & Platform Engineer — SCIENTEC CONSULTING PTE. LTD.
+  · Associate Software Engineer — PQCEE PTE. LTD.
+  · Software Developer #83456 — ANRADUS PTE. LTD.
+  · Software Engineer (C++, Embedded system) Automation - VTTO — RECRUITPEDIA PTE. LTD.
+  · Full Stack EngineerProduct | Discovery & Developer Experienc — NEXBRIDGE RECRUITMENT PTE. LTD
+  · Python Developer (Application Security) — QUANTUM INFOTECH SOLUTIONS PTE
+  · Python Developer (Application Security) — TECHEMERGE SOLUTIONS PTE. LTD.
+  · Financial Institution/Banking: Full stack developer (Python/ — THE RESOLUTE HUNTER PTE. LTD.
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
