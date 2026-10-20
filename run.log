@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1861 条
+  拿到 1905 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,19 +37,27 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6280 条
+  拿到 6259 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1282 / 8141 条符合关键词+地点
+过滤后 1307 / 8164 条符合关键词+地点
 
-★ 新职位 8 条
-  · Cloud & Platform Engineer — SCIENTEC CONSULTING PTE. LTD.
-  · Associate Software Engineer — PQCEE PTE. LTD.
-  · Software Developer #83456 — ANRADUS PTE. LTD.
-  · Software Engineer (C++, Embedded system) Automation - VTTO — RECRUITPEDIA PTE. LTD.
-  · Full Stack EngineerProduct | Discovery & Developer Experienc — NEXBRIDGE RECRUITMENT PTE. LTD
-  · Python Developer (Application Security) — QUANTUM INFOTECH SOLUTIONS PTE
-  · Python Developer (Application Security) — TECHEMERGE SOLUTIONS PTE. LTD.
-  · Financial Institution/Banking: Full stack developer (Python/ — THE RESOLUTE HUNTER PTE. LTD.
+★ 新职位 48 条
+  · CLOUD ENGINEER — HELIUS TECHNOLOGIES PTE. LTD.
+  · Cloud Engineer — WPH DIGITAL PTE. LTD.
+  · [T04] Cloud Engineer (Open to fresher) - Permanent Role — TALENTSIS PTE. LTD.
+  · DevOps Engineer — RANDSTAD PTE. LIMITED
+  · DevOps/DevSecOpsEngineer — U3 INFOTECH PTE. LTD.
+  · [T04] DevOps Engineer (Kubernetes) - Permanent Role — TALENTSIS PTE. LTD.
+  · Site Reliability Engineer — APPLE SOUTH ASIA PTE. LTD.
+  · Application Support Analyst (SRE) — U3 INFOTECH PTE. LTD.
+  · Platform Engineer — APPLE SOUTH ASIA PTE. LTD.
+  · Platform Engineer — APPLE SOUTH ASIA PTE. LTD.
+  · Platform Engineer — SQUAREPOINT SERVICES SINGAPORE
+  · ICT Infrastructure Engineer - #1717 — JOBSTER PRIVATE LTD.
+  · IT Infra Engineer (Cloud/DevOps) — TALENTSIS PTE. LTD.
+  · AI Engineer — ANCHOR SEARCH GROUP PTE. LTD.
+  · AI Engineer, SMAI — MICRON SEMICONDUCTOR ASIA OPER
+  …另有 33 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
