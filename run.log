@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1905 条
+  拿到 1950 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -26,7 +26,7 @@
   [OK] Palantir (lever)
   [OK] Motional (greenhouse)
   [OK] NVIDIA (workday)
-  [失败] Salesforce (workday): HTTPError 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs
+  [OK] Salesforce (workday)
   [OK] Adobe (workday)
   [OK] PayPal (workday)
   [OK] Mastercard (workday)
@@ -37,27 +37,29 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6259 条
+  拿到 6705 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1307 / 8164 条符合关键词+地点
+过滤后 1354 / 8655 条符合关键词+地点
 
-★ 新职位 48 条
-  · CLOUD ENGINEER — HELIUS TECHNOLOGIES PTE. LTD.
-  · Cloud Engineer — WPH DIGITAL PTE. LTD.
-  · [T04] Cloud Engineer (Open to fresher) - Permanent Role — TALENTSIS PTE. LTD.
-  · DevOps Engineer — RANDSTAD PTE. LIMITED
-  · DevOps/DevSecOpsEngineer — U3 INFOTECH PTE. LTD.
-  · [T04] DevOps Engineer (Kubernetes) - Permanent Role — TALENTSIS PTE. LTD.
-  · Site Reliability Engineer — APPLE SOUTH ASIA PTE. LTD.
-  · Application Support Analyst (SRE) — U3 INFOTECH PTE. LTD.
-  · Platform Engineer — APPLE SOUTH ASIA PTE. LTD.
-  · Platform Engineer — APPLE SOUTH ASIA PTE. LTD.
-  · Platform Engineer — SQUAREPOINT SERVICES SINGAPORE
-  · ICT Infrastructure Engineer - #1717 — JOBSTER PRIVATE LTD.
-  · IT Infra Engineer (Cloud/DevOps) — TALENTSIS PTE. LTD.
-  · AI Engineer — ANCHOR SEARCH GROUP PTE. LTD.
-  · AI Engineer, SMAI — MICRON SEMICONDUCTOR ASIA OPER
-  …另有 33 条
+(隐藏 1 条 政府与公共部门 岗位,仍入库)
+
+★ 新职位 49 条
+  · Cloud Engineer — ELLIOTT MOSS CONSULTING PTE. L
+  · Cloud Engineer (2-Year Contract, Renewable/ Convertible) — VESYNC (SINGAPORE) PTE. LTD.
+  · DevOps Engineer — NEWTONE CONSULTING PTE. LTD.
+  · DevOps engineer — NEWTONE CONSULTING PTE. LTD.
+  · DevOps/DevSecOps Engineer — U3 PROJECTS PTE. LTD.
+  · T&T Consultant - Engineering – DevOps Engineer - SG — DELOITTE SINGAPORE T&T PTE. LT
+  · DevOps Engineer (Kubernetes / OpenShift & Observability)_ Ch — NTT SINGAPORE PTE. LTD.
+  · SRE Engineer — ITCAN PTE. LIMITED
+  · Application Support Analyst (SRE) — U3 PROJECTS PTE. LTD.
+  · Infrastructure Engineer (Ref 26548) — JOBLINE RESOURCES PTE. LTD.
+  · IT Infrastructure Engineer (Healthcare) — RN CARE PTE. LTD.
+  · IT Infrastructure Engineer — IT&M (SG) PTE. LTD.
+  · AI Engineer — CARECAM PTE. LTD.
+  · AI Engineer — SCIENTEC CONSULTING PTE. LTD.
+  · Junior AI Engineer — RIDER DOME PTE. LTD.
+  …另有 34 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
