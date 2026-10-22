@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1950 条
+  拿到 1929 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,29 +37,27 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6705 条
+  拿到 6731 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1354 / 8655 条符合关键词+地点
+过滤后 1355 / 8660 条符合关键词+地点
 
-(隐藏 1 条 政府与公共部门 岗位,仍入库)
-
-★ 新职位 49 条
-  · Cloud Engineer — ELLIOTT MOSS CONSULTING PTE. L
-  · Cloud Engineer (2-Year Contract, Renewable/ Convertible) — VESYNC (SINGAPORE) PTE. LTD.
-  · DevOps Engineer — NEWTONE CONSULTING PTE. LTD.
-  · DevOps engineer — NEWTONE CONSULTING PTE. LTD.
-  · DevOps/DevSecOps Engineer — U3 PROJECTS PTE. LTD.
-  · T&T Consultant - Engineering – DevOps Engineer - SG — DELOITTE SINGAPORE T&T PTE. LT
-  · DevOps Engineer (Kubernetes / OpenShift & Observability)_ Ch — NTT SINGAPORE PTE. LTD.
-  · SRE Engineer — ITCAN PTE. LIMITED
-  · Application Support Analyst (SRE) — U3 PROJECTS PTE. LTD.
-  · Infrastructure Engineer (Ref 26548) — JOBLINE RESOURCES PTE. LTD.
+★ 新职位 78 条
+  · Cloud Platform Engineer (AWS) — SCIENTEC CONSULTING PTE. LTD.
+  · Cloud Platform Engineer — AMK — COMBUILDER PTE LTD
+  · Cloud Engineer (Fresh Graduates Welcome) — TALENTSIS PTE. LTD.
+  · Devops Engineer — DYNAMIC HUMAN CAPITAL PTE. LTD
+  · Devops Engineer (AWS) — SCIENTEC CONSULTING PTE. LTD.
+  · DevOps Engineer (Fresh Graduates Welcome) — TALENTSIS PTE. LTD.
+  · DevOps / SRE Engineer — EPAM SYSTEMS PTE. LTD.
+  · Experienced DevOps Engineer | Permanent — TALENTSIS PTE. LTD.
+  · Graduate Cloud Infrastructure/DevOps Engineer (Fresh Graduat — TALENTSIS PTE. LTD.
+  · Site Reliability Engineer (Production Support) — BEATHCHAPMAN (PTE. LTD.)
+  · Junior Platform Engineer — TRUEWATCH TECHNOLOGY INC PTE. 
+  · Windows Infrastructure Engineer (L2/L3) — U3 INFOTECH PTE. LTD.
+  · ICT Infrastructure Engineer — KOPI RECRUIT PTE. LTD.
+  · Infrastructure Engineer (Fresh Graduates Welcome) — TALENTSIS PTE. LTD.
   · IT Infrastructure Engineer (Healthcare) — RN CARE PTE. LTD.
-  · IT Infrastructure Engineer — IT&M (SG) PTE. LTD.
-  · AI Engineer — CARECAM PTE. LTD.
-  · AI Engineer — SCIENTEC CONSULTING PTE. LTD.
-  · Junior AI Engineer — RIDER DOME PTE. LTD.
-  …另有 34 条
+  …另有 63 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
