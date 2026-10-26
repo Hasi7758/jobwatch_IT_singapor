@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1848 条
+  拿到 1796 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,15 +37,18 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6701 条
+  拿到 6695 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1250 / 8549 条符合关键词+地点
+过滤后 1215 / 8491 条符合关键词+地点
 
-★ 新职位 4 条
-  · AWS Cloud Platform Engineer — EPERGNE SOLUTIONS PTE. LTD.
-  · Platform Engineer — ENGGSOL PTE. LTD.
-  · Software Engineer — CPO PTE. LTD.
-  · Software Engineer, Internal Tools and Infrastructure — CORTEX AI PTE. LTD.
+★ 新职位 7 条
+  · Infrastructure Engineer (Azure & Hybrid Cloud) — PHAIDON INTERNATIONAL (SINGAPO
+  · IT Infrastructure Engineer (System Administration) — AVENSYS CONSULTING PTE. LTD.
+  · Artificial Intelligence / Computer Vision Engineer — POROLIS TECHNOLOGIES PTE. LTD.
+  · Embedded Software Engineer — BLAZECORP PTE. LTD.
+  · Software / Full Stack Engineer (Web Applications) — INTUIT RECRUITMENT PTE. LTD.
+  · Full Stack Engineer (React/ Node/ .NET) — INTUIT RECRUITMENT PTE. LTD.
+  · Frontend / Full Stack Engineer — INTUIT RECRUITMENT PTE. LTD.
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
