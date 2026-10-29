@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1920 条
+  拿到 1915 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,27 +37,29 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6714 条
+  拿到 6625 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1300 / 8634 条符合关键词+地点
+过滤后 1295 / 8540 条符合关键词+地点
 
-★ 新职位 78 条
-  · Cloud Engineer — DYNAMIC HUMAN CAPITAL PTE. LTD
-  · Cloud Engineer - EPL — DYNAMIC HUMAN CAPITAL PTE. LTD
-  · Cloud Engineer - GM — DYNAMIC HUMAN CAPITAL PTE. LTD
-  · CLOUD OPERATIONS ENGINEER — ORACLE GLOBAL SERVICES SINGAPO
-  · Permanent - Cloud Engineer - Multiple Openings — TALENTSIS PTE. LTD.
-  · Cloud Engineer - JT — DYNAMIC HUMAN CAPITAL PTE. LTD
-  · DevOps Field Engineer — BLUE SILO PTE. LTD.
-  · Junior DevOps Engineer — FLINTEX CONSULTING PTE. LTD.
-  · Application Production Support Engineer – DevOps & Automatio — CORNERSTONE GLOBAL PARTNERS PT
-  · Site Reliability Engineer, Enterprise Technology Services — APPLE SOUTH ASIA PTE. LTD.
-  · AI Platform Engineer — INFINITE COMPUTER SOLUTIONS PT
-  · Infrastructure Engineer — RECRUIT EXPRESS PTE LTD
-  · INFRASTRUCTURE ENGINEER (IT) — ORACLE GLOBAL SERVICES SINGAPO
-  · Infrastructure Engineer — APBA TG HUMAN RESOURCE PTE. LT
-  · IT Infrastructure Engineer (Healthcare) — RN CARE PTE. LTD.
-  …另有 63 条
+(隐藏 1 条 政府与公共部门 岗位,仍入库)
+
+★ 新职位 54 条
+  · Cloud Engineer (Infrastructure) / AWS / GOVT — SCIENTEC CONSULTING PTE. LTD.
+  · Cloud Engineer (AWS/ Azure) — SCIENTEC CONSULTING PTE. LTD.
+  · Cloud Platform Engineer — AMK — COMBUILDER PTE LTD
+  · [MANY] Junior Cloud/DevOps Engineers (No Experience Required — TALENTSIS PTE. LTD.
+  · Devops Engineer — AMBITION GROUP SINGAPORE PTE. 
+  · DevOps Engineer — SCIENTEC CONSULTING PTE. LTD.
+  · DevOps Engineer — INCUBE8 PTE. LTD.
+  · Devops Engineer — BASE CAMP DIGITAL PTE. LTD.
+  · Cloud Devops Engineer — SCIENTEC CONSULTING PTE. LTD.
+  · Murex Devops — AURIONPRO MARKET SYSTEMS PTE. 
+  · Engineer (Site Reliability exp) — ES RECRUITMENT PTE. LTD.
+  · Platform Engineer — RAPSYS TECHNOLOGIES PTE. LTD.
+  · Platform Engineer (1 year contract) — DADACONSULTANTS PTE. LTD.
+  · ICT Infrastructure Engineer (AI Infrastructure) — NTT SINGAPORE PTE. LTD.
+  · Network Infrastructure Engineer — ALPHAEUS PTE. LTD.
+  …另有 39 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
