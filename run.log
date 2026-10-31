@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1854 条
+  拿到 1835 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -23,7 +23,7 @@
   [OK] Datadog (greenhouse)
   [OK] Twilio (greenhouse)
   [OK] Okta (greenhouse)
-  [失败] Palantir (lever): ReadTimeout HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=20)
+  [OK] Palantir (lever)
   [OK] Motional (greenhouse)
   [OK] NVIDIA (workday)
   [OK] Salesforce (workday)
@@ -37,28 +37,27 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6076 条
+  拿到 6752 条
+丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1241 / 7930 条符合关键词+地点
+过滤后 1232 / 8587 条符合关键词+地点
 
-(隐藏 1 条 政府与公共部门 岗位,仍入库)
-
-★ 新职位 71 条
-  · IT Cloud Engineer [ 5 - 5.5 days, Tai Seng ] — ZHONG QI FUTURE (SINGAPORE) PT
-  · Cloud Engineer (AMK) — MAESTRO HUMAN RESOURCE PTE. LT
-  · DevOps engineer — NEWTONE SERVICES PTE. LTD.
-  · DevOps Engineer — NUSABASE DIGITAL PTE. LTD.
-  · Infrastructure / DevOps Support Engineer — LYNEER CORP (SINGAPORE) PTE. L
-  · DevOps Engineer (AI Platform)DevOps Engineer — GOLDTECH RESOURCES PTE LTD
-  · Remote DevOps Engineer — I-CONSULT TECH PTE. LTD.
-  · Security Platform Engineer — PERCEPT SOLUTIONS PTE. LTD.
-  · Network & Infrastructure Engineer — GOLDTECH RESOURCES PTE LTD
-  · IT Infrastructure Engineer (Healthcare) — RN CARE PTE. LTD.
-  · ICT Infrastructure Engineer (AI Platform) – Financial Regula — DADACONSULTANTS PTE. LTD.
-  · AI Engineer — SURBANA JURONG SERVICES PTE. L
-  · AI Engineer (Permanent) — TALENTSIS PTE. LTD.
-  · Software Engineer, AI Agents — MIAO WORLDS PTE. LTD.
-  · Full Stack AI Engineer — HRNET VENTURES PTE. LTD.
-  …另有 56 条
+★ 新职位 66 条
+  · Cloud Engineer — SIMPLYGO PTE. LTD.
+  · Cloud Engineer — UNIZEN TECHNOLOGIES PTE. LTD.
+  · Junior Cloud Engineer (AWS) — SCIENTEC CONSULTING PTE. LTD.
+  · [T04] Cloud Engineer (Open to fresher) - Permanent Role — TALENTSIS PTE. LTD.
+  · Cloud Infra Engineer (No experience required/ fresh grads ar — TALENTSIS PTE. LTD.
+  · Devops Engineer — DYNAMIC HUMAN CAPITAL PTE. LTD
+  · Devops Engineer - SA — DYNAMIC HUMAN CAPITAL PTE. LTD
+  · Devops Engineer - EPL — DYNAMIC HUMAN CAPITAL PTE. LTD
+  · DevOps System Engineer — ALMR BUSINESS CONSULTING GROUP
+  · Devops Automation Engineer — DNA AI TECHNOLOGIES PTE. LTD.
+  · Devops Engineer (AWS) — SCIENTEC CONSULTING PTE. LTD.
+  · DevOps Engineer (On-Site & Cloud) — BLUE SILO PTE. LTD.
+  · Experienced DevOps Engineer | Permanent — TALENTSIS PTE. LTD.
+  · Devops Engineer - EA — DYNAMIC HUMAN CAPITAL PTE. LTD
+  · Software System Engineer (Dev Ops) — TESCOM (SINGAPORE) SOFTWARE SY
+  …另有 51 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
