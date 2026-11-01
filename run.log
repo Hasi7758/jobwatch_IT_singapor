@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1835 条
+  拿到 1811 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,27 +37,16 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6752 条
+  拿到 6753 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1232 / 8587 条符合关键词+地点
+过滤后 1209 / 8564 条符合关键词+地点
 
-★ 新职位 66 条
-  · Cloud Engineer — SIMPLYGO PTE. LTD.
-  · Cloud Engineer — UNIZEN TECHNOLOGIES PTE. LTD.
-  · Junior Cloud Engineer (AWS) — SCIENTEC CONSULTING PTE. LTD.
-  · [T04] Cloud Engineer (Open to fresher) - Permanent Role — TALENTSIS PTE. LTD.
-  · Cloud Infra Engineer (No experience required/ fresh grads ar — TALENTSIS PTE. LTD.
-  · Devops Engineer — DYNAMIC HUMAN CAPITAL PTE. LTD
-  · Devops Engineer - SA — DYNAMIC HUMAN CAPITAL PTE. LTD
-  · Devops Engineer - EPL — DYNAMIC HUMAN CAPITAL PTE. LTD
-  · DevOps System Engineer — ALMR BUSINESS CONSULTING GROUP
-  · Devops Automation Engineer — DNA AI TECHNOLOGIES PTE. LTD.
-  · Devops Engineer (AWS) — SCIENTEC CONSULTING PTE. LTD.
-  · DevOps Engineer (On-Site & Cloud) — BLUE SILO PTE. LTD.
-  · Experienced DevOps Engineer | Permanent — TALENTSIS PTE. LTD.
-  · Devops Engineer - EA — DYNAMIC HUMAN CAPITAL PTE. LTD
-  · Software System Engineer (Dev Ops) — TESCOM (SINGAPORE) SOFTWARE SY
-  …另有 51 条
+★ 新职位 5 条
+  · AI ENGINEER — RMR INTERNATIONAL PRIVATE LIMI
+  · SOFTWARE DEVELOPER — RMR INTERNATIONAL PRIVATE LIMI
+  · Simulation Software Engineer (C++ / Unreal Development) — TALENTSIS PTE. LTD.
+  · Automation Software Engineer (C# Programming) #10233 — ANRADUS PTE. LTD.
+  · Full Stack Engineer | Contract | Hybrid Work Arrangement — NEXBRIDGE RECRUITMENT PTE. LTD
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
