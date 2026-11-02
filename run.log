@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1811 条
+  拿到 1771 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,16 +37,20 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6753 条
+  拿到 6756 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1209 / 8564 条符合关键词+地点
+过滤后 1174 / 8527 条符合关键词+地点
 
-★ 新职位 5 条
-  · AI ENGINEER — RMR INTERNATIONAL PRIVATE LIMI
-  · SOFTWARE DEVELOPER — RMR INTERNATIONAL PRIVATE LIMI
-  · Simulation Software Engineer (C++ / Unreal Development) — TALENTSIS PTE. LTD.
-  · Automation Software Engineer (C# Programming) #10233 — ANRADUS PTE. LTD.
-  · Full Stack Engineer | Contract | Hybrid Work Arrangement — NEXBRIDGE RECRUITMENT PTE. LTD
+★ 新职位 9 条
+  · Full Stack Cloud Engineer (Contract) | Resume Booster — NEXBRIDGE RECRUITMENT PTE. LTD
+  · Network Infrastructure Engineer - (up to $7,000 base + AWS + — TYSON JAY MANAGEMENT PTE. LTD.
+  · Embedded AI Engineer — FONTES SINGAPORE PRIVATE LIMIT
+  · Full Stack Engineer (ReactJS/ Python Django) — INTUIT RECRUITMENT PTE. LTD.
+  · Full Stack Engineer (Frontend-focused) — INTUIT RECRUITMENT PTE. LTD.
+  · FULL STACK DEVELOPER — PHOTOPRESS
+  · Full-Stack Engineer (24 Months Contract) — TECHKNOWLEDGEY PTE. LTD.
+  · computer programmer — HALIMAH & SONS PTE. LTD.
+  · Robot Software and Control Programmer — ROBOTPACK FLEXIBLE AUTOMATION 
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
