@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1905 条
+  拿到 1874 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,29 +37,27 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6471 条
+  拿到 6624 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1259 / 8376 条符合关键词+地点
+过滤后 1238 / 8498 条符合关键词+地点
 
-(隐藏 1 条 政府与公共部门 岗位,仍入库)
-
-★ 新职位 75 条
-  · Cloud Engineer (Fresh Graduates Welcome) — TALENTSIS PTE. LTD.
-  · [MANY] Junior Cloud/ DevOps Engineers (No Experience Require — TALENTSIS PTE. LTD.
-  · DevOps Engineer — FLY WING TECHNOLOGIES PTE. LTD
-  · DevOps Engineer — COGNIZANT TECHNOLOGY SOLUTIONS
-  · DevOps and Red Hat OpenShift (OCP) Platform Engineer(CI/CD,  — EXASOFT CONSULTING PTE. LTD.
-  · DevOps and Red Hat OpenShift (OCP) Platform Engineer(CI/CD,  — EXASOFT CONSULTING PTE. LTD.
-  · DevOps and Red Hat OpenShift (OCP) Platform Engineer(CI/CD,  — EXASOFT CONSULTING PTE. LTD.
-  · Full-Stack Engineer (Cloud & DevOps) — XTREMAX PTE. LTD.
-  · DevOps and Red Hat OpenShift (OCP) Platform Engineer(CI/CD,  — EXASOFT PTE. LTD.
-  · DevOps and Red Hat OpenShift (OCP) Platform Engineer(CI/CD,  — EXASOFT PTE. LTD.
-  · DevOps and Red Hat OpenShift (OCP) Platform Engineer(CI/CD,  — EXASOFT PTE. LTD.
-  · Backend Software Engineer (SRE) - Cloud Infrastructure — BYTEDANCE PTE. LTD.
-  · Platform Reliability Engineer — FIRMUS METAL INTERNATIONAL PTE
-  · AI Engineer — BEYONDSOFT TECHNOLOGY (SINGAPO
-  · AI Engineer — FULLERTON HEALTHCARE GROUP PTE
-  …另有 60 条
+★ 新职位 48 条
+  · Cloud Azure & Devops Engineer — THAKRAL ONE PTE. LTD.
+  · [T04] Cloud Engineer (Open to fresher) - Permanent Role — TALENTSIS PTE. LTD.
+  · Azure Cloud Engineer (Kubernetes / Government Project) — SCIENTEC CONSULTING PTE. LTD.
+  · DevOps Engineer (AI Platform)DevOps Engineer — GOLDTECH RESOURCES PTE LTD
+  · Remote DevOps Engineer — I-CONSULT TECH PTE. LTD.
+  · [T04] DevOps Engineer (Kubernetes) - Permanent Role — TALENTSIS PTE. LTD.
+  · Site Reliability Engineer (SRE) — TALENTSIS PTE. LTD.
+  · Platform Engineer — EAMES CONSULTING GROUP (SINGAP
+  · Infrastructure Engineer — TRINITY HR SOLUTIONS PTE. LTD.
+  · Infrastructure Engineer — TRINITY HR SOLUTIONS PTE. LTD.
+  · Network & Infrastructure Engineer — GOLDTECH RESOURCES PTE LTD
+  · IT Infrastructure Engineer (Healthcare) — RN CARE PTE. LTD.
+  · AI Engineer — WS GROUP PTE. LTD.
+  · AI Application Engineer — SYSTEMS ON SILICON MANUFACTURI
+  · Junior AI / ML Engineer #10481 — ANRADUS PTE. LTD.
+  …另有 33 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
