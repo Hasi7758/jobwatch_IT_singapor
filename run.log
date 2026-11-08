@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1874 条
+  拿到 1835 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,27 +37,24 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6624 条
+  拿到 6622 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1238 / 8498 条符合关键词+地点
+过滤后 1213 / 8457 条符合关键词+地点
 
-★ 新职位 48 条
-  · Cloud Azure & Devops Engineer — THAKRAL ONE PTE. LTD.
-  · [T04] Cloud Engineer (Open to fresher) - Permanent Role — TALENTSIS PTE. LTD.
-  · Azure Cloud Engineer (Kubernetes / Government Project) — SCIENTEC CONSULTING PTE. LTD.
-  · DevOps Engineer (AI Platform)DevOps Engineer — GOLDTECH RESOURCES PTE LTD
-  · Remote DevOps Engineer — I-CONSULT TECH PTE. LTD.
-  · [T04] DevOps Engineer (Kubernetes) - Permanent Role — TALENTSIS PTE. LTD.
-  · Site Reliability Engineer (SRE) — TALENTSIS PTE. LTD.
-  · Platform Engineer — EAMES CONSULTING GROUP (SINGAP
-  · Infrastructure Engineer — TRINITY HR SOLUTIONS PTE. LTD.
-  · Infrastructure Engineer — TRINITY HR SOLUTIONS PTE. LTD.
-  · Network & Infrastructure Engineer — GOLDTECH RESOURCES PTE LTD
-  · IT Infrastructure Engineer (Healthcare) — RN CARE PTE. LTD.
-  · AI Engineer — WS GROUP PTE. LTD.
-  · AI Application Engineer — SYSTEMS ON SILICON MANUFACTURI
-  · Junior AI / ML Engineer #10481 — ANRADUS PTE. LTD.
-  …另有 33 条
+★ 新职位 13 条
+  · Cloud Infrastructure Engineer (Alibaba Cloud) - 12-Month Con — COGNITIO AI PTE. LTD.
+  · Cloud Engineer - 12-Month Contract — COGNITIO AI PTE. LTD.
+  · Cloud Infrastructure Engineer (GCP) - 12-Month Contract — COGNITIO AI PTE. LTD.
+  · AI Infrastructure Engineer Graduate (TikTok Recommendation A — TIKTOK PTE. LTD.
+  · AI Infrastructure Engineer Graduate (TikTok Live Recommendat — TIKTOK PTE. LTD.
+  · Software Engineer Graduate (TikTok Search Architecture) - 20 — TIKTOK PTE. LTD.
+  · Software Engineer Graduate(TikTok Recommendation Platform) - — TIKTOK PTE. LTD.
+  · Software Engineer Graduate (TikTok Live Recommendation Archi — TIKTOK PTE. LTD.
+  · Software Engineer Graduate (TikTok Recommendation Architectu — TIKTOK PTE. LTD.
+  · Software Engineer Graduate (TikTok Global E-Commerce Recomme — TIKTOK PTE. LTD.
+  · Backend Engineer — VINOVA PTE. LTD.
+  · Backend Engineer — VINOVA PTE. LTD.
+  · Full Stack Engineer — VINOVA PTE. LTD.
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
