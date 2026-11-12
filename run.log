@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1813 条
+  拿到 1848 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -37,27 +37,29 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6483 条
+  拿到 6500 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1195 / 8296 条符合关键词+地点
+过滤后 1191 / 8348 条符合关键词+地点
 
-★ 新职位 69 条
-  · Cloud Engineer — ASTEK SINGAPORE INNOVATION TEC
-  · Cloud Engineer (Amazon Web Services (AWS) and Amazon Elastic — PERCEPT SOLUTIONS PTE. LTD.
-  · Cloud Engineer (No Experience Required / Fresh Graduates Wel — TALENTSIS PTE. LTD.
-  · Cloud and AI Engineer (Banking MNC) — ADECCO PERSONNEL PTE LTD
-  · Azure Platform & Devops Infrastructure Engineer (Agency Cont — PERSOL SINGAPORE PTE. LTD.
-  · Azure Platform Devops Engineer — SOFTENGER (SINGAPORE) PTE. LTD
-  · CLOUD ENGINEER — BIPO SERVICE (SINGAPORE) PTE. 
-  · DevOps Engineer — CAPGEMINI SINGAPORE  PTE. LTD.
-  · DevOps Engineer — CAPGEMINI SINGAPORE  PTE. LTD.
-  · DevOps Engineer — NETXPOSE PTE. LTD.
-  · Software DevOps Engineer — THALES SOLUTIONS ASIA PTE. LTD
-  · Backend & Distributed Systems Engineer (Java, Microservices, — APAR TECHNOLOGIES PTE. LTD.
-  · Graduate Cloud Infrastructure/DevOps Engineer (Fresh Graduat — TALENTSIS PTE. LTD.
-  · Remote DevOps Engineer — I-CONSULT TECH PTE. LTD.
-  · DevOps Engineer (Entry Level / Junior) — TALENTSIS PTE. LTD.
-  …另有 54 条
+(隐藏 1 条 政府与公共部门 岗位,仍入库)
+
+★ 新职位 71 条
+  · Cloud Engineer (VMware Implementation)_24/7 Rotating shift_C — NTT SINGAPORE PTE. LTD.
+  · [MANY] Junior Cloud/DevOps Engineers (No Experience Required — TALENTSIS PTE. LTD.
+  · Cloud Engineer (Unix/Linux Administration) 24/7 on call supp — NTT SINGAPORE PTE. LTD.
+  · Cloud/Devops Engineer (Full-Time Role with Sponsored Trainin — RED ALPHA CYBERSECURITY PTE. L
+  · Cloud Engineer (Unix/Linux Administration) 24/7 on call supp — RECRUIT EXPRESS PTE LTD
+  · Cloud Engineer(VMware Implementation)_24/7 Rotating shift_Co — RECRUIT EXPRESS PTE LTD
+  · DevOps Engineer — ALTROCKS TECH PTE. LTD.
+  · DevOps Engineer — INNOVATIQ TECHNOLOGIES PTE. LT
+  · DevOps Engineer — SILVERLINK TECHNOLOGIES PTE. L
+  · Junior DevOps Engineer — ES RECRUITMENT PTE. LTD.
+  · Full Stack DevOps Engineer — CAPGEMINI SINGAPORE  PTE. LTD.
+  · Cloud / DevOps Engineer - Contract — ICON OUTSOURCING
+  · SRE Engineer — ITCAN PTE. LIMITED
+  · Infrastructure Engineer — RAPSYS TECHNOLOGIES PTE. LTD.
+  · IT Infrastructure Engineer — AMBITION GROUP SINGAPORE PTE. 
+  …另有 56 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
