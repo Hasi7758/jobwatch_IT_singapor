@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1870 条
+  拿到 1844 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -11,8 +11,8 @@
   [OK] Xendit (greenhouse)
   [OK] Thoughtworks (greenhouse)
   [OK] GitLab (greenhouse)
-  [OK] Micron (workday)
-  [OK] GlobalFoundries (workday)
+  [失败] Micron (workday): HTTPError 521 Server Error: <none> for url: https://micron.wd1.myworkdayjobs.com/wday/cxs/micron/External/jobs
+  [失败] GlobalFoundries (workday): HTTPError 521 Server Error: <none> for url: https://globalfoundries.wd1.myworkdayjobs.com/wday/cxs/globalfoundries/External/jobs
   [OK] AMD (phenom)
   [OK] Keysight (phenom)
   [OK] Western Digital (smartrecruiters)
@@ -25,39 +25,39 @@
   [OK] Okta (greenhouse)
   [OK] Palantir (lever)
   [OK] Motional (greenhouse)
-  [OK] NVIDIA (workday)
+  [失败] NVIDIA (workday): HTTPError 521 Server Error: <none> for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs
   [OK] Salesforce (workday)
-  [OK] Adobe (workday)
-  [OK] PayPal (workday)
-  [OK] Mastercard (workday)
-  [OK] Intel (workday)
-  [OK] HP (workday)
+  [失败] Adobe (workday): HTTPError 521 Server Error: <none> for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs
+  [失败] PayPal (workday): HTTPError 521 Server Error: <none> for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jobs/jobs
+  [失败] Mastercard (workday): HTTPError 521 Server Error: <none> for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs
+  [失败] Intel (workday): HTTPError 521 Server Error: <none> for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs
+  [失败] HP (workday): HTTPError 521 Server Error: <none> for url: https://hp.wd5.myworkdayjobs.com/wday/cxs/hp/ExternalCareerSite/jobs
   [OK] Dyson (workday)
   [OK] SAP (successfactors)
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6463 条
+  拿到 5527 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1203 / 8333 条符合关键词+地点
+过滤后 1178 / 7371 条符合关键词+地点
 
-★ 新职位 69 条
-  · Cloud Engineer — DELTA SG CONSULTING
-  · Cloud Devops Engineer — TEMUS PTE. LTD.
-  · Junior DevOps Engineer — FLINTEX CONSULTING PTE. LTD.
-  · DevOps Engineer – Kubernetes/OpenShift (Jurong East) — MAESTRO HUMAN RESOURCE PTE. LT
-  · DevOps & SRE Operations Engineer - 6 Months Contract - SGD10 — MORGAN MCKINLEY PTE. LTD.
-  · DevOps Engineer/Platform Engineer — SEDHA CONSULTING PTE. LTD.
-  · Full Stack DevOps Engineer — ESPIRE INFOLABS (SINGAPORE) PT
-  · Devops Engineer ISGM-001 — INFOGAIN TECHNOLOGIES PTE. LTD
-  · Platform Engineer SAS Viya — UNISON CONSULTING PTE. LTD.
-  · Wintel Infrastructure Engineer — GOLDTECH RESOURCES PTE LTD
-  · IT Infrastructure Engineer (5 -7 Years) — INFOTICS PTE. LTD.
-  · AI Engineer — R SYSTEMS (SINGAPORE) PTE LIMI
-  · AI Engineer — DELTA SG CONSULTING
-  · AI Engineer — INNOCELLENCE SYSTEMS PTE. LTD.
-  · Full‑Stack Applied AI Engineer (Agentic AI) — FLINTEX CONSULTING PTE. LTD.
-  …另有 54 条
+★ 新职位 46 条
+  · Azure Engineer — GOLDTECH RESOURCES PTE LTD
+  · Cloud Engineer (Entry-Level / Open to Fresh Graduates) — TALENTSIS PTE. LTD.
+  · [MANY] Junior Cloud/ DevOps Engineers (No Experience Require — TALENTSIS PTE. LTD.
+  · Devops Engineer — HAYS SPECIALIST RECRUITMENT PT
+  · DevOps Engineer (AWS) — FPT ASIA PACIFIC PTE. LTD.
+  · Software & DevOps Engineer (Fresh Graduate Welcome) — TALENTSIS PTE. LTD.
+  · DevOps Engineer (AWS / Kubernetes) — SCIENTEC CONSULTING PTE. LTD.
+  · Remote DevOps Engineer — I-CONSULT TECH PTE. LTD.
+  · Platform Engineer — LION & ELEPHANTS CONSULTANCY P
+  · IT Infrastructure Engineer (Network, Systems) — GMP RECRUITMENT SERVICES (S) P
+  · AI Engineer — AMBITION GROUP SINGAPORE PTE. 
+  · AI Engineer (Permanent) — TALENTSIS PTE. LTD.
+  · AI Engineer | AI & Digital Solutions Forward Deployed Engine — RECRUIT EXPRESS PTE LTD
+  · Junior AI / ML Engineer #10481 — ANRADUS PTE. LTD.
+  · Software Engineer (Python / Gen AI) — SCIENTEC CONSULTING PTE. LTD.
+  …另有 31 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
