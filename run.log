@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1778 条
+  拿到 1730 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -26,7 +26,7 @@
   [OK] Palantir (lever)
   [OK] Motional (greenhouse)
   [OK] NVIDIA (workday)
-  [OK] Salesforce (workday)
+  [失败] Salesforce (workday): HTTPError 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs
   [OK] Adobe (workday)
   [OK] PayPal (workday)
   [OK] Mastercard (workday)
@@ -37,16 +37,23 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6815 条
+  拿到 6392 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1182 / 8593 条符合关键词+地点
+过滤后 1105 / 8122 条符合关键词+地点
 
-★ 新职位 5 条
-  · Computer Software Engineer — JIE SHUN JIA
-  · Urgent: Software Engineer (Automation Systems) — ACHIEVE CAREER CONSULTANT PTE 
-  · Urgent!!! Software Engineer (.NET, Vue.JS, Cloud) — TRUST RECRUIT PTE. LTD.
-  · Full Stack Engineer — JIE SHUN JIA
-  · Full-stack Engineer (Portals & AI CRM) — HASHMETA AI PTE. LTD.
+★ 新职位 12 条
+  · [T04] Cloud Engineer (Open to fresher) - Permanent Role — TALENTSIS PTE. LTD.
+  · [T04] DevOps Engineer (Kubernetes) - Permanent Role — TALENTSIS PTE. LTD.
+  · Software Engineer — ELEC-PRO TECHNOLOGY PTE. LTD.
+  · Junior Software Engineer (C++ Middleware & Interfaces) — ELLIOTT MOSS CONSULTING PTE. L
+  · Python Developer — ELLIOTT MOSS CONSULTING PTE. L
+  · Software Engineer (Devices) — TROYTECH INTERNATIONAL CONSULT
+  · Software Engineer (C/C++, Semiconductor/Automation) — RECRUIT EXPERT PTE. LTD.
+  · Software Engineer (Computer Vision/Vision Inspection, C++) — RECRUIT EXPERT PTE. LTD.
+  · Software / Full Stack Engineer (Web Applications) — INTUIT RECRUITMENT PTE. LTD.
+  · Java Developer — TROYTECH INTERNATIONAL CONSULT
+  · Frontend / Full Stack Engineer — INTUIT RECRUITMENT PTE. LTD.
+  · Full Stack Engineer (AI experience required) — INTUIT RECRUITMENT PTE. LTD.
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
