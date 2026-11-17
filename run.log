@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1730 条
+  拿到 1788 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -11,8 +11,8 @@
   [OK] Xendit (greenhouse)
   [OK] Thoughtworks (greenhouse)
   [OK] GitLab (greenhouse)
-  [OK] Micron (workday)
-  [OK] GlobalFoundries (workday)
+  [失败] Micron (workday): HTTPError 429 Client Error: Too Many Requests for url: https://micron.wd1.myworkdayjobs.com/wday/cxs/micron/External/jobs
+  [失败] GlobalFoundries (workday): HTTPError 429 Client Error: Too Many Requests for url: https://globalfoundries.wd1.myworkdayjobs.com/wday/cxs/globalfoundries/External/jobs
   [OK] AMD (phenom)
   [OK] Keysight (phenom)
   [OK] Western Digital (smartrecruiters)
@@ -25,35 +25,39 @@
   [OK] Okta (greenhouse)
   [OK] Palantir (lever)
   [OK] Motional (greenhouse)
-  [OK] NVIDIA (workday)
+  [失败] NVIDIA (workday): HTTPError 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs
   [失败] Salesforce (workday): HTTPError 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs
   [OK] Adobe (workday)
-  [OK] PayPal (workday)
-  [OK] Mastercard (workday)
-  [OK] Intel (workday)
-  [OK] HP (workday)
-  [OK] Dyson (workday)
+  [失败] PayPal (workday): HTTPError 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jobs/jobs
+  [失败] Mastercard (workday): HTTPError 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs
+  [失败] Intel (workday): HTTPError 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs
+  [失败] HP (workday): HTTPError 429 Client Error: Too Many Requests for url: https://hp.wd5.myworkdayjobs.com/wday/cxs/hp/ExternalCareerSite/jobs
+  [失败] Dyson (workday): HTTPError 429 Client Error: Too Many Requests for url: https://dyson.wd3.myworkdayjobs.com/wday/cxs/dyson/Dyson_Careers/jobs
   [OK] SAP (successfactors)
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 6392 条
+  拿到 5353 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1105 / 8122 条符合关键词+地点
+过滤后 1131 / 7141 条符合关键词+地点
 
-★ 新职位 12 条
-  · [T04] Cloud Engineer (Open to fresher) - Permanent Role — TALENTSIS PTE. LTD.
-  · [T04] DevOps Engineer (Kubernetes) - Permanent Role — TALENTSIS PTE. LTD.
-  · Software Engineer — ELEC-PRO TECHNOLOGY PTE. LTD.
-  · Junior Software Engineer (C++ Middleware & Interfaces) — ELLIOTT MOSS CONSULTING PTE. L
-  · Python Developer — ELLIOTT MOSS CONSULTING PTE. L
-  · Software Engineer (Devices) — TROYTECH INTERNATIONAL CONSULT
-  · Software Engineer (C/C++, Semiconductor/Automation) — RECRUIT EXPERT PTE. LTD.
-  · Software Engineer (Computer Vision/Vision Inspection, C++) — RECRUIT EXPERT PTE. LTD.
-  · Software / Full Stack Engineer (Web Applications) — INTUIT RECRUITMENT PTE. LTD.
-  · Java Developer — TROYTECH INTERNATIONAL CONSULT
-  · Frontend / Full Stack Engineer — INTUIT RECRUITMENT PTE. LTD.
-  · Full Stack Engineer (AI experience required) — INTUIT RECRUITMENT PTE. LTD.
+★ 新职位 78 条
+  · Cloud/DevOps Engineer (Many Positions/Permanent) — TALENTSIS PTE. LTD.
+  · Cloud Engineer (Entry-Level / Open to Fresh Graduates) — TALENTSIS PTE. LTD.
+  · Cloud Engineer (Fresh Graduates Welcome) — TALENTSIS PTE. LTD.
+  · [MANY] Junior Cloud/ DevOps Engineers (No Experience Require — TALENTSIS PTE. LTD.
+  · DevOps Engineer — SILVERLINK TECHNOLOGIES PTE. L
+  · DevOps Engineer — NSEARCH GLOBAL PTE. LTD.
+  · DevOps Engineer (Fresh Graduates Welcome) — TALENTSIS PTE. LTD.
+  · Software & DevOps Engineer (Fresh Graduate Welcome) — TALENTSIS PTE. LTD.
+  · Remote DevOps Engineer — I-CONSULT TECH PTE. LTD.
+  · DevOps Engineer — ENCORA TECHNOLOGIES PTE. LTD.
+  · DevOps Engineer — SEDHA CONSULTING PTE. LTD.
+  · System Engineer (Site Reliability Operations) — AVENSYS CONSULTING PTE. LTD.
+  · Urgent!!! Site Reliability Engineer (Kubernetes, Cloud) — TRUST RECRUIT PTE. LTD.
+  · Site Reliability Engineer — ENCORA TECHNOLOGIES PTE. LTD.
+  · Platform Engineer — ENCORA TECHNOLOGIES PTE. LTD.
+  …另有 63 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
