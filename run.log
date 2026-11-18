@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1788 条
+  拿到 1832 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -27,7 +27,7 @@
   [OK] Motional (greenhouse)
   [失败] NVIDIA (workday): HTTPError 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs
   [失败] Salesforce (workday): HTTPError 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs
-  [OK] Adobe (workday)
+  [失败] Adobe (workday): HTTPError 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs
   [失败] PayPal (workday): HTTPError 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jobs/jobs
   [失败] Mastercard (workday): HTTPError 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs
   [失败] Intel (workday): HTTPError 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs
@@ -37,27 +37,29 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 5353 条
+  拿到 5331 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1131 / 7141 条符合关键词+地点
+过滤后 1180 / 7163 条符合关键词+地点
 
-★ 新职位 78 条
-  · Cloud/DevOps Engineer (Many Positions/Permanent) — TALENTSIS PTE. LTD.
-  · Cloud Engineer (Entry-Level / Open to Fresh Graduates) — TALENTSIS PTE. LTD.
-  · Cloud Engineer (Fresh Graduates Welcome) — TALENTSIS PTE. LTD.
-  · [MANY] Junior Cloud/ DevOps Engineers (No Experience Require — TALENTSIS PTE. LTD.
-  · DevOps Engineer — SILVERLINK TECHNOLOGIES PTE. L
-  · DevOps Engineer — NSEARCH GLOBAL PTE. LTD.
-  · DevOps Engineer (Fresh Graduates Welcome) — TALENTSIS PTE. LTD.
-  · Software & DevOps Engineer (Fresh Graduate Welcome) — TALENTSIS PTE. LTD.
-  · Remote DevOps Engineer — I-CONSULT TECH PTE. LTD.
-  · DevOps Engineer — ENCORA TECHNOLOGIES PTE. LTD.
-  · DevOps Engineer — SEDHA CONSULTING PTE. LTD.
-  · System Engineer (Site Reliability Operations) — AVENSYS CONSULTING PTE. LTD.
-  · Urgent!!! Site Reliability Engineer (Kubernetes, Cloud) — TRUST RECRUIT PTE. LTD.
-  · Site Reliability Engineer — ENCORA TECHNOLOGIES PTE. LTD.
-  · Platform Engineer — ENCORA TECHNOLOGIES PTE. LTD.
-  …另有 63 条
+(隐藏 2 条 政府与公共部门 岗位,仍入库)
+
+★ 新职位 75 条
+  · Cloud Engineer — WPH DIGITAL PTE. LTD.
+  · Cloud Operations Engineer — RANDSTAD PTE. LIMITED
+  · AI Cloud Platform Engineer | ML Infrastructure & Technical O — RANDSTAD PTE. LIMITED
+  · AI Cloud Platform Engineer | ML Infrastructure & Technical O — RANDSTAD PTE. LIMITED
+  · Cloud Engineer (Microsoft Azure) — ENCORA TECHNOLOGIES PTE. LTD.
+  · Cloud Engineer (Microsoft Azure) — INFINITE COMPUTER SOLUTIONS PT
+  · Cloud & Backend Engineer - 12 Month Contract — BGC GROUP PTE. LTD.
+  · CloudOps Engineer (AWS & Kubernetes) | Up to $7500 | Changi  — PERSOL OUTSOURCING SINGAPORE P
+  · Cloud DevOps Engineer — RANDSTAD PTE. LIMITED
+  · DevOps Engineer / DevSecOps Engineer (12 months contract | P — BGC GROUP PTE. LTD.
+  · DevOps Engineer, Global Markets (Contract) — ARGYLL SCOTT CONSULTING PTE. L
+  · Graduate Cloud Infrastructure/DevOps Engineer (Fresh Graduat — TALENTSIS PTE. LTD.
+  · Site Reliability Engineer — SAGL CONSULTING PTE. LTD.
+  · Site Reliability Engineer (SRE) — INFINITE COMPUTER SOLUTIONS PT
+  · Platform Engineer — INFINITE COMPUTER SOLUTIONS PT
+  …另有 60 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
