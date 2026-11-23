@@ -1,11 +1,11 @@
 抓取 MyCareersFuture…
-  拿到 1839 条
+  拿到 1818 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
   [OK] Ninja Van (lever)
   [OK] ByteDance / TikTok (smartrecruiters)
-  [OK] SHEIN (greenhouse)
+  [失败] SHEIN (greenhouse): HTTPError 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/shein/jobs
   [OK] Stripe (greenhouse)
   [OK] Nium (lever)
   [OK] Xendit (greenhouse)
@@ -26,7 +26,7 @@
   [OK] Palantir (lever)
   [OK] Motional (greenhouse)
   [失败] NVIDIA (workday): HTTPError 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs
-  [失败] Salesforce (workday): HTTPError 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs
+  [OK] Salesforce (workday)
   [失败] Adobe (workday): HTTPError 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs
   [失败] PayPal (workday): HTTPError 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jobs/jobs
   [失败] Mastercard (workday): HTTPError 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs
@@ -37,20 +37,27 @@
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 5329 条
+  拿到 5355 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1182 / 7168 条符合关键词+地点
+过滤后 1172 / 7173 条符合关键词+地点
 
-★ 新职位 9 条
-  · Cloud Engineer - #1822 — JOBSTER PRIVATE LTD.
-  · AI Engineer — WINSPIRE SOLUTIONS PTE. LTD.
-  · Software Engineer ( Contract ) | Able to start work immediat — NEXBRIDGE RECRUITMENT PTE. LTD
-  · Applications programmer — TECH AURORA PTE. LTD.
-  · Full-Stack software Engineer (Node.js, React & LLM Applicati — NEXBRIDGE RECRUITMENT PTE. LTD
-  · Full Stack Software Engineer (Salesforce) — INVERSERA TECHNOLOGIES PTE. LT
-  · Backend Developer (Java) - #1820 — JOBSTER PRIVATE LTD.
-  · Full-Stack Engineer, AI-Powered Case Review Platform | Gover — NEXBRIDGE RECRUITMENT PTE. LTD
-  · Full-Stack Engineer (Agentic AI & Government Digital Service — NEXBRIDGE RECRUITMENT PTE. LTD
+★ 新职位 29 条
+  · [T04] Cloud Engineer (Open to fresher) - Permanent Role — TALENTSIS PTE. LTD.
+  · Cloud Infra Engineer (No experience required/ fresh grads ar — TALENTSIS PTE. LTD.
+  · [MANY] Junior Cloud/DevOps Engineers (No Experience Required — TALENTSIS PTE. LTD.
+  · DevOps Engineer — TEAMLEASE DIGITAL SOLUTIONS PT
+  · Full Stack DevOps Engineer — INVERSERA TECHNOLOGIES PTE. LT
+  · Full Stack DevOps Engineer — INVERSERA TECHNOLOGIES PTE. LT
+  · Software & DevOps Engineer (Fresh Graduate Welcome) — TALENTSIS PTE. LTD.
+  · ITSM / JSM Automation Engineer - Devops — COGNIZANT TECHNOLOGY SOLUTIONS
+  · AI/ML Engineer (Permanent) — TALENTSIS PTE. LTD.
+  · Junior AI / ML Engineer #10481 — ANRADUS PTE. LTD.
+  · Forward Deployed AI Engineer (Junior) — SECOND TALENT SG PTE. LTD.
+  · [T04] Machine Learning Engineer (ML) - Permanent Role — TALENTSIS PTE. LTD.
+  · Software Engineer — KENETICS INNOVATIONS PTE LTD
+  · Software Developer / Software Engineer #10123 — ANRADUS PTE. LTD.
+  · Software Developer — AVENSYS CONSULTING PTE. LTD.
+  …另有 14 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
