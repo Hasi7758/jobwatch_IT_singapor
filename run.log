@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1903 条
+  拿到 1962 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -9,7 +9,7 @@
   [OK] Stripe (greenhouse)
   [OK] Nium (lever)
   [OK] Xendit (greenhouse)
-  [OK] Thoughtworks (greenhouse)
+  [失败] Thoughtworks (greenhouse): HTTPError 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/thoughtworks/jobs
   [OK] GitLab (greenhouse)
   [失败] Micron (workday): HTTPError 429 Client Error: Too Many Requests for url: https://micron.wd1.myworkdayjobs.com/wday/cxs/micron/External/jobs
   [失败] GlobalFoundries (workday): HTTPError 429 Client Error: Too Many Requests for url: https://globalfoundries.wd1.myworkdayjobs.com/wday/cxs/globalfoundries/External/jobs
@@ -28,36 +28,38 @@
   [失败] NVIDIA (workday): HTTPError 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs
   [失败] Salesforce (workday): HTTPError 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs
   [失败] Adobe (workday): HTTPError 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs
-  [失败] PayPal (workday): HTTPError 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jobs/jobs
-  [失败] Mastercard (workday): HTTPError 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs
-  [失败] Intel (workday): HTTPError 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs
+  [OK] PayPal (workday)
+  [OK] Mastercard (workday)
+  [OK] Intel (workday)
   [失败] HP (workday): HTTPError 429 Client Error: Too Many Requests for url: https://hp.wd5.myworkdayjobs.com/wday/cxs/hp/ExternalCareerSite/jobs
   [失败] Dyson (workday): HTTPError 429 Client Error: Too Many Requests for url: https://dyson.wd3.myworkdayjobs.com/wday/cxs/dyson/Dyson_Careers/jobs
   [OK] SAP (successfactors)
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 5316 条
+  拿到 5357 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1217 / 7219 条符合关键词+地点
+过滤后 1257 / 7319 条符合关键词+地点
 
-★ 新职位 66 条
-  · Cloud Engineer — REOLINK TECHNOLOGY PTE. LTD.
-  · Cloud Engineer — ELLIOTT MOSS CONSULTING PTE. L
-  · Infra & Cloud engineer — RANDSTAD PTE. LIMITED
-  · L2 Cloud Engineer AWS — CLOUD KINETICS CONSULTING PTE.
-  · Cloud Solution Engineer  (AWS / Azure | DevOps | Kubernetes) — SCIENTEC CONSULTING PTE. LTD.
-  · Cloud Engineer (Fresh Graduates Welcome) — TALENTSIS PTE. LTD.
-  · Cloud Engineer (Fresh Graduates Welcome) — TALENTSIS PTE. LTD.
-  · [MANY] Junior Cloud/ DevOps Engineers (No Experience Require — TALENTSIS PTE. LTD.
+(隐藏 1 条 政府与公共部门 岗位,仍入库)
+
+★ 新职位 70 条
+  · Cloud Engineer — LIQUID GROUP PTE. LTD.
+  · AWS Cloud Operations Engineer — VINE INFOTECH PRIVATE LIMITED
+  · Cloud & DevOps Engineer (FSI Domain) — NTT SINGAPORE PTE. LTD.
   · Junior Cloud & Platform Engineer | Contract — MANPOWER STAFFING SERVICES (SI
-  · DevOps Engineer — SINGAPORE TELECOMMUNICATIONS L
-  · Remote DevOps Engineer — I-CONSULT TECH PTE. LTD.
-  · Dev OPs Engineer — ANTAS PTE. LTD.
+  · DevOps Engineer — OVERSEA-CHINESE BANKING CORPOR
+  · DevOps Engineer — RANDSTAD PTE. LIMITED
+  · DevOps Engineer — COPPERCO TALENT SERVICES PTE. 
+  · DevOps Engineer — WEST — COMBUILDER PTE LTD
+  · Operations Support Engineer- DevOps — EXCELTECH COMPUTERS PTE. LTD.
+  · Site Reliability Engineer — ARISTON SERVICES PTE. LTD.
+  · Site Reliability Engineer — ALLEGIS GROUP SINGAPORE PRIVAT
+  · Site Reliability Engineer — XCELLINK PTE. LTD.
   · Site Reliability Engineer — MANPOWER STAFFING SERVICES (SI
-  · Site Reliability Engineer | SRE — REOLINK TECHNOLOGY PTE. LTD.
-  · Site Reliability Engineer / Infrastructure — RECRUIT EXPRESS PTE LTD
-  …另有 51 条
+  · Site Reliability Application Engineer — U3 INFOTECH PTE. LTD.
+  · Platform Engineer — IDC TECHNOLOGIES (SINGAPORE) P
+  …另有 55 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
