@@ -1,5 +1,5 @@
 抓取 MyCareersFuture…
-  拿到 1964 条
+  拿到 1997 条
 抓取公司 ATS…
   [OK] GovTech Singapore (greenhouse)
   [OK] Grab (smartrecruiters)
@@ -26,40 +26,38 @@
   [OK] Palantir (lever)
   [OK] Motional (greenhouse)
   [失败] NVIDIA (workday): HTTPError 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs
-  [失败] Salesforce (workday): HTTPError 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs
+  [OK] Salesforce (workday)
   [失败] Adobe (workday): HTTPError 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs
   [失败] PayPal (workday): HTTPError 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jobs/jobs
   [失败] Mastercard (workday): HTTPError 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs
-  [OK] Intel (workday)
+  [失败] Intel (workday): HTTPError 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs
   [失败] HP (workday): HTTPError 429 Client Error: Too Many Requests for url: https://hp.wd5.myworkdayjobs.com/wday/cxs/hp/ExternalCareerSite/jobs
   [失败] Dyson (workday): HTTPError 429 Client Error: Too Many Requests for url: https://dyson.wd3.myworkdayjobs.com/wday/cxs/dyson/Dyson_Careers/jobs
   [OK] SAP (successfactors)
   [OK] Infineon (successfactors)
   [OK] Continental / Aumovio (smartrecruiters)
   [OK] Carl Zeiss (lever)
-  拿到 5314 条
+  拿到 5355 条
 丢弃过期职位 1 条(发布超过 365 天)
 
-过滤后 1248 / 7278 条符合关键词+地点
+过滤后 1278 / 7352 条符合关键词+地点
 
-(隐藏 3 条 政府与公共部门 岗位,仍入库)
-
-★ 新职位 67 条
-  · Cloud Engineer — RECRUIT EXPRESS PTE LTD
-  · Cloud Platform Engineer — ARGYLL SCOTT CONSULTING PTE. L
-  · Cloud & DevOps Engineer — HELIUS TECHNOLOGIES PTE. LTD.
-  · Cloud Engineer-Aws and Azure — PATH INFOTECH PTE. LTD.
+★ 新职位 93 条
+  · Cloud Engineer — HELIUS TECHNOLOGIES PTE. LTD.
+  · Cloud Engineer — ACCION TECHNOLOGIES PTE. LTD.
+  · Cloud Infrastructure Engineer — NORGES BANK SINGAPORE BRANCH
+  · VMware vsphere Private cloud engineer (Contract) — MICHAEL PAGE INTERNATIONAL PTE
+  · Cloud Engineer (Ref 23939) — JOBLINE RESOURCES PTE. LTD.
+  · Cloud Engineer - 12 Month Contract — BGC GROUP PTE. LTD.
   · cloud engineer (GCP) (weekends, shift) #IKR — RECRUIT EXPRESS PTE LTD
-  · DevOps Engineer — METAVERSE CLOUD SOLUTION PTE. 
-  · Devops Engineer — TECHCOM SOLUTIONS (SINGAPORE) 
-  · Cloud Devops Engineer — COMBUILDER PTE LTD
-  · DevOps Engineer - Contract — ZENITH INFOTECH (S) PTE LTD.
-  · Cloud DevOps Engineer — RECRUIT EXPRESS PTE LTD
-  · DevOps Engineer — AXS PAYMENTS PTE. LTD.
-  · Site Reliability Application Engineer — U3 SOLUTIONS PTE. LTD.
-  · Site Reliability Engineer (Automation & Observability) — ARISTON SERVICES PTE. LTD.
-  · Site Reliability Engineer - TikTok Recommendation Architectu — TIKTOK PTE. LTD.
-  · Site Reliability Engineer, TikTok Recommendation Architectur — TIKTOK PTE. LTD.
-  …另有 52 条
+  · Cloud Engineer — ESPIRE INFOLABS (SINGAPORE) PT
+  · Junior DevOps Engineer — FLINTEX CONSULTING PTE. LTD.
+  · ClickHouse DevOps Engineer — DUOTECH PTE. LTD.
+  · DevOps Engineer (Ref 25492) — JOBLINE RESOURCES PTE. LTD.
+  · Remote DevOps Engineer — I-CONSULT TECH PTE. LTD.
+  · DevOps Engineer |Bank | Contract — MANPOWER STAFFING SERVICES (SI
+  · Site Reliability Engineer - Recommendation Architecture (Byt — BYTEDANCE PTE. LTD.
+  · Site Reliability Engineer - Machine Learning Systems (Singap — BYTEDANCE PTE. LTD.
+  …另有 78 条
 
 报告已生成: /home/runner/work/jobwatch_IT_singapor/jobwatch_IT_singapor/digest.html
